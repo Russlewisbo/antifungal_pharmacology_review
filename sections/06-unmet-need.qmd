@@ -1,0 +1,30 @@
+
+## What the established classes cannot do
+
+| Gap | Clinical consequence |
+|---|---|
+| **No oral agent active against azole-resistant moulds** | Prolonged IV therapy, or no therapy at all, for TR~34~/L98H *A. fumigatus* |
+| **No agent active against *L. prolificans*** | Near-uniform resistance to every licensed drug; mortality >70% |
+| **Echinocandins cannot reach CNS, eye or urine** | Class cannot be used for the sanctuary-site syndromes it would otherwise suit |
+| **Azole interaction burden** | Unmanageable in patients on venetoclax, vinca alkaloids, or complex transplant regimens |
+| **Only IV options for the fungicidal classes** | No step-down for *C. auris*, echinocandin-resistant *N. glabratus*, or long-course mould disease |
+| **Polyene toxicity** | Limits duration of induction therapy exactly where it is most needed |
+| **No new target since 2001** | Resistance to each class remains unopposed by a mechanistically distinct partner |
+
+![](figures/fig_spectrum.png){width="78%" fig-alt="Matrix of antifungal agents versus pathogens showing reliably active, variable and inactive combinations."}
+
+## The five agents that changed the picture
+
+| Agent | Class / target | Route | Status |
+|---|---|---|---|
+| **Rezafungin** | Echinocandin, Fks1/2 — long-acting | IV weekly | **Approved** (EU/UK invasive candidiasis; US for limited/no alternatives) |
+| **Ibrexafungerp** | Triterpenoid, glucan synthase at a distinct site | **Oral** | **Approved** for VVC/rVVC; phase 3 for invasive disease |
+| **Fosmanogepix** | Gwt1 inhibitor (GPI-anchor maturation) | IV **and oral** | Phase 3 |
+| **Olorofim** | Orotomide, fungal DHODH | **Oral** | Phase 3 (OASIS); breakthrough therapy designation |
+| **Opelconazole** | Inhaled triazole (Cyp51) | **Inhaled** | Phase 2/3 |
+
+::: {.keypoint}
+Note what these agents have in common: **oral or long-interval administration**, **activity against
+resistant organisms**, and in two cases **genuinely new targets**. Those are precisely the gaps in the table
+above [@hoenigl2021pipeline; @hoenigl2024novel; @vuong2026moulds; @zubovskaia2026candidiasis; @stover2023pipeline].
+:::

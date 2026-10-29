@@ -1,0 +1,216 @@
+
+## Azoles · mechanism of action
+
+::: {.columns}
+::: {.column width="55%"}
+- Azoles bind the haem iron of **lanosterol 14α-demethylase (Cyp51/Erg11)**, blocking conversion of
+  lanosterol to ergosterol.
+- Two consequences, not one: **ergosterol depletion** *and* **accumulation of toxic 14α-methylated sterols**
+  that destabilise the membrane.
+- Potency and spectrum across the class track **affinity for the demethylase**; toxicity and interactions
+  track **cross-inhibition of human CYP3A4, CYP2C9 and CYP2C19**.
+- Ring nitrogen count defines the subclass:
+  - **imidazoles** (2 N) — ketoconazole, miconazole, clotrimazole: now topical only
+  - **triazoles** (3 N) — fluconazole, itraconazole, voriconazole, posaconazole, isavuconazole
+  - **tetrazole** (4 N) — oteseconazole: engineered for fungal Cyp51 selectivity
+- Azoles have **no antibacterial activity**, unlike the nitroimidazoles.
+:::
+::: {.column width="45%"}
+::: {.keypoint}
+**Fungistatic against yeasts, fungicidal against moulds.** This asymmetry explains why azoles work as
+step-down and prophylaxis in candidiasis, but can be curative monotherapy in aspergillosis.
+:::
+
+::: {.pearl}
+The tetrazole scaffold of **oteseconazole** replaces the triazole iron-binding group to gain selectivity for
+fungal Cyp51 over human CYP enzymes — fewer interactions, fewer off-target effects.
+:::
+:::
+:::
+
+## Triazoles · comparative spectrum and MICs {.smaller}
+
+| Organism | Fluconazole | Itraconazole | Voriconazole | Posaconazole | Isavuconazole |
+|---|---|---|---|---|---|
+| *C. albicans* (MIC~90~, mg/L) | 0.25–1 | 0.06–0.25 | 0.015–0.06 | 0.03–0.06 | 0.015–0.06 |
+| *N. glabratus* (*C. glabrata*) | 8–32 | 0.5–2 | 0.25–1 | 0.5–2 | 0.5–2 |
+| *C. parapsilosis* | 0.5–2 | 0.12–0.5 | 0.03–0.12 | 0.06–0.25 | 0.03–0.12 |
+| *P. kudriavzevii* (*C. krusei*) | 32–64 (**intrinsic R**) | 0.25–1 | 0.12–0.5 | 0.12–0.5 | 0.12–0.5 |
+| *C. auris* | 32–>64 (**~90% R**) | variable | 0.5–>8 | 0.06–1 | 0.12–1 |
+| *Cryptococcus neoformans* | 2–8 | 0.12–0.5 | 0.03–0.12 | 0.06–0.25 | 0.03–0.12 |
+| *A. fumigatus* (MEC/MIC) | >64 (**no activity**) | 0.5–1 | 0.5–1 | 0.03–0.25 | 0.5–2 |
+| Mucorales | >64 | >8 | **>8 (intrinsic R)** | 0.5–2 | 1–4 |
+| *Fusarium* spp. | >64 | >8 | 2–>8 | 2–>8 | 4–>8 |
+| *L. prolificans* | >64 | >8 | >8 | >8 | >8 |
+
+::: {.source}
+Representative wild-type MIC~90~ ranges compiled from surveillance data summarised in refs
+[@hoenigl2024novel; @perlin2015fks; @verweij2016azoleres]. Use local EUCAST/CLSI breakpoints for interpretation —
+method, medium and endpoint all shift the number.
+:::
+
+::: {.caution}
+**Three intrinsic resistances to memorise:** fluconazole has no mould activity; voriconazole has no Mucorales
+activity (a distinctive Cyp51 sequence); *L. prolificans* is resistant to every licensed agent.
+:::
+
+## Triazoles · resistance mechanisms
+
+::: {.columns}
+::: {.column width="50%"}
+**In *Candida***
+
+- Overexpression of **ERG11** plus efflux via **MDR1, CDR1, CDR2** — the dominant mechanism in *C. albicans*;
+  point substitutions are less common.
+- *N. glabratus*: efflux (**Cdr1, Cdr2**); resistance can sometimes be overcome by higher exposure, but an
+  alternative class is recommended for invasive disease. A **mismatch-repair "mutator" phenotype** facilitates
+  multiclass resistance.
+- *P. kudriavzevii*: **intrinsic** fluconazole resistance from *ERG11* sequence.
+- *C. parapsilosis*: emerging fluconazole resistance, mostly **Y132F in Erg11**.
+- *C. auris*: largely fluconazole-resistant via *ERG11* mutations, variable for other azoles.
+- Cross-resistance with amphotericin B occurs via **ERG2/ERG3** lesions.
+:::
+::: {.column width="50%"}
+**In *Cryptococcus***
+
+- Mostly **heteroresistance**: unstable, transient adaptation from **duplication of chromosome 1**, which
+  carries *ERG11* and the efflux pump *AFR1* — not classical point mutation.
+- Up to 12% of isolates show reduced fluconazole susceptibility; MICs rose between 2007 and 2017.
+
+**In *Aspergillus fumigatus***
+
+- **Point mutations in *CYP51A*** — pattern determines which azoles are lost.
+- **Environmental, fungicide-driven resistance**: a 34-bp tandem repeat in the *cyp51A* promoter with L98H
+  (**TR~34~/L98H**) gives pan-azole resistance; **TR~46~/Y121F/T289A** gives high-level voriconazole
+  resistance [@snelders2008tr34; @verweij2016azoleres].
+- Non-*cyp51A* mechanisms and cryptic species (*A. lentulus*, *A. tubingensis*, *A. calidoustus*) add further
+  resistance — **always identify to species and test**.
+:::
+:::
+
+## Triazoles · comparative ADME {.smaller}
+
+::: {.smaller-table}
+| Parameter | Fluconazole | Itraconazole | Voriconazole | Posaconazole (DR tablet / IV) | Isavuconazole |
+|---|---|---|---|---|---|
+| **Oral bioavailability** | >90%; >90% of an oral dose appears in the circulation | Erratic; capsules need acid **and** food; solution better fasting; SUBA formulation improves it | ~96% | Suspension low and saturable; **delayed-release tablet high and reliable** | ~98% |
+| **Food / gastric pH** | **No effect** | Major effect | Reduced by food; take 1 h apart from meals | Suspension needs food and acid; **tablet and IV unaffected** | No effect |
+| **Protein binding** | ~**10%** | 99.8% | ~58% | >98% | >99% |
+| **Half-life** | ~**30 h** | 21–64 h (saturable) | ~6 h, **non-linear** | 25–31 h | ~**130 h** |
+| **Metabolism** | Minimal — **80% excreted unchanged in urine** | CYP3A4 → active hydroxy-itraconazole | **CYP2C19** (polymorphic), CYP2C9, CYP3A4 | **UGT1A4 glucuronidation**, P-gp substrate | CYP3A4/3A5 and UGT |
+| **Kinetics** | Linear, highly predictable | Non-linear, **least predictable** with voriconazole | Non-linear, **least predictable** | Intermediate predictability | Linear, intermediate–good predictability |
+| **Renal adjustment** | **Yes** — 50% if CrCl <50 mL/min, 25% if <20 mL/min; full dose after each dialysis session | No | Oral no; **IV vehicle (SBECD) accumulates** in renal impairment | No | No |
+| **Prodrug** | — | — | — | — | **Isavuconazonium sulfate**, cleaved by plasma esterases |
+:::
+
+::: {.source}
+Compiled from refs [@bellmann2017ampk; @bruggemann2009interactions; @jenks2020isavu]; fluconazole parameters
+and renal dose adjustments as per the primary chapter source.
+:::
+
+## Triazoles · penetration into privileged sites
+
+| Site | Fluconazole | Voriconazole | Posaconazole | Isavuconazole | Itraconazole |
+|---|---|---|---|---|---|
+| **CSF** | **50–70% of serum** | ~50% of plasma; good brain parenchymal concentrations | Low in CSF, better in brain tissue | Low in CSF, measurable brain tissue | Negligible |
+| **Vitreous / aqueous** | Good | Good — agent of choice for fungal endophthalmitis with susceptible organisms | Low | Low | Negligible |
+| **Urine (active drug)** | **High — 80% unchanged**; the only triazole reliably active in urine | <2% unchanged | Minimal | Minimal | Minimal |
+| **Epithelial lining fluid / lung** | Good | High | Good; high alveolar macrophage concentrations | Good | Moderate |
+| **Saliva / mucosa** | Excellent | Good | Good | Good | Moderate |
+
+::: {.keypoint}
+**Two site-specific rules.** For *Candida* urinary tract disease, fluconazole (or flucytosine, or
+amphotericin B) — **not** an echinocandin, posaconazole or isavuconazole. For CNS or ocular candidiasis or
+aspergillosis, fluconazole or voriconazole have the distribution; posaconazole and isavuconazole have brain
+tissue penetration but low CSF concentrations.
+:::
+
+## Triazoles · pharmacodynamics and TDM targets
+
+::: {.columns}
+::: {.column width="48%"}
+- The index is **AUC~0–24~/MIC**, validated across *Candida*, *Cryptococcus* and *Aspergillus* models
+  [@andes2001pd].
+- Because exposure is the driver, **loading doses** are needed for every agent with a long half-life, and
+  trough concentration is used as a practical surrogate for AUC.
+- TDM is indicated where exposure is unpredictable — which, for this class, means **most agents most of the
+  time**.
+:::
+::: {.column width="52%"}
+| Agent | Trough target | When to measure |
+|---|---|---|
+| **Fluconazole** | Not routinely defined | High-dose coccidioidomycosis, renal dysfunction, morbid obesity |
+| **Itraconazole** | **>0.5–1 mg/L** (itraconazole; some add hydroxy-metabolite) | All patients — absorption is erratic |
+| **Voriconazole** | **1–5.5 mg/L**: >1–2 for efficacy, **<5.5 to avoid neurotoxicity** | All patients, day 4–7, after any dose change |
+| **Posaconazole** | **≥0.7 mg/L** prophylaxis; **≥1.0–1.25 mg/L** treatment | Suspension always; tablet/IV if absorption or response in doubt |
+| **Isavuconazole** | Not routinely required | Obesity, ECMO, poor response, significant interactions |
+:::
+:::
+
+::: {.keypoint}
+**Voriconazole TDM changes outcomes.** Observational and randomised data show that dose adjustment to a target
+trough **increases response and reduces drug discontinuation for toxicity**
+[@pascual2008voritdm; @park2012voritdm; @troke2011voriqtc; @ashbee2014tdmguideline; @johnson2018tdm].
+:::
+
+## Triazoles · drug interactions {.smaller}
+
+::: {.columns}
+::: {.column width="54%"}
+**Mechanism.** All triazoles inhibit **CYP3A4**; fluconazole and voriconazole additionally inhibit **CYP2C9**
+and **CYP2C19**. Itraconazole has the largest interaction burden; fluconazole and isavuconazole the smallest
+[@bruggemann2009interactions].
+
+**Azole concentration *raised* by other drugs**: clarithromycin, erythromycin, indinavir, ritonavir (itraconazole).
+
+**Azole concentration *reduced* by other drugs** — usually an absolute contraindication:
+rifampicin, rifabutin, phenobarbital, phenytoin, carbamazepine, long-acting barbiturates, St John's wort,
+efavirenz. Antacids, H~2~-blockers and PPIs reduce itraconazole capsules and posaconazole **suspension** (not
+the tablet).
+:::
+::: {.column width="46%"}
+**Clinically critical substrate interactions**
+
+| Substrate | Consequence |
+|---|---|
+| Tacrolimus, ciclosporin, sirolimus | Large exposure increases; pre-emptive dose reduction and TDM. Voriconazole's effect on tacrolimus is **greater with oral than IV** administration |
+| Venetoclax, ibrutinib, midostaurin, ruxolitinib, glasdegib | Major exposure increases; dose reduction per label |
+| Vinca alkaloids | Neurotoxicity — **avoid** |
+| Statins (CYP3A4-dependent) | Myopathy risk |
+| QT-prolonging agents (pimozide, quinidine, dofetilide, terfenadine, cisapride) | **Contraindicated** |
+| Warfarin | INR rise, especially fluconazole and voriconazole (CYP2C9) |
+
+::: {.caution}
+**Isavuconazole shortens the QT interval** — the opposite of the class effect — and is contraindicated in
+familial short QT syndrome.
+:::
+:::
+:::
+
+## Triazoles · adverse effects by agent
+
+| Agent | Characteristic toxicities |
+|---|---|
+| **Fluconazole** | Generally benign: headache, alopecia, xerosis, cheilitis — all reversible. Hepatotoxicity and QTc prolongation possible with any triazole. Neurotoxicity reported at very high doses (2000 mg/day). **Teratogen — FDA category D**; high-dose first-trimester exposure linked to skeletal and cardiac defects |
+| **Itraconazole** | Negative inotropy — **contraindicated in heart failure**; oedema, hypertension, hypokalaemia; GI intolerance with the oral solution |
+| **Voriconazole** | **Transient visual disturbance** (~30%; reversible dysfunction of retinal ON-bipolar cells); hepatotoxicity; **encephalopathy and hallucinations** (concentration-dependent); **phototoxicity progressing to cutaneous squamous cell carcinoma** with chronic use; **fluoride excess and periostitis**; alopecia and nail changes |
+| **Posaconazole** | Generally well tolerated; **pseudohyperaldosteronism** (hypertension, hypokalaemia) through 11β-hydroxylase inhibition; hepatotoxicity |
+| **Isavuconazole** | Best-tolerated of the mould-active triazoles; GI upset, hepatotoxicity, infusion reactions; **QT shortening** |
+| **Oteseconazole** | Headache (7.4%) and nausea (3.6%); only 1 of 580 women in phase 3 discontinued for an adverse event. **Ocular abnormalities in rat offspring** at ~3.5× clinical exposure — contraindicated in pregnancy and in women of reproductive potential |
+
+::: {.caution}
+**The chronic-voriconazole triad** — photosensitivity, periostitis with fluoride excess, and squamous cell
+carcinoma — is the main reason long-term mould prophylaxis and treatment has shifted toward posaconazole
+and isavuconazole.
+:::
+
+## Triazoles · clinical use
+
+| Agent | Established role |
+|---|---|
+| **Fluconazole** | Invasive candidiasis (susceptible isolates) and step-down; *Candida* UTI; cryptococcal consolidation (400–800 mg/day ≥8 weeks) and maintenance (200–400 mg/day); coccidioidomycosis; neonatal prophylaxis (3–6 mg/kg twice weekly in infants <1000 g) |
+| **Itraconazole** | **Agent of choice for blastomycosis, histoplasmosis, paracoccidioidomycosis** and non-meningeal coccidioidomycosis; ABPA; onychomycosis |
+| **Voriconazole** | First-line invasive aspergillosis — superior to amphotericin B deoxycholate in the pivotal trial [@herbrecht2002voriconazole]; *Scedosporium apiospermum*; *Candida* endophthalmitis |
+| **Posaconazole** | Prophylaxis in AML/MDS neutropenia and in severe GVHD [@cornely2007posaprophylaxis; @ullmann2007posagvhd]; non-inferior to voriconazole for first-line invasive aspergillosis with better tolerability [@maertens2021posaphase3]; salvage therapy for mucormycosis |
+| **Isavuconazole** | Non-inferior to voriconazole for invasive mould disease with fewer hepatic, ocular and skin adverse events (SECURE) [@maertens2016secure]; **mucormycosis** (VITAL) [@marty2016vital]; no TDM, no renal-vehicle problem, linear kinetics |
+| **Oteseconazole** | **Recurrent vulvovaginal candidiasis** — 6.7% and 3.9% of treated women had a recurrence through week 48 versus 42.8% and 39.4% on placebo in the VIOLET trials [@sobel2022oteseconazole] |

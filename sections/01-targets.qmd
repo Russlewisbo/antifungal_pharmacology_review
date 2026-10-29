@@ -1,0 +1,48 @@
+
+## Four established targets, three new ones
+
+| Target | Molecular site | Agents | Effect on the cell |
+|---|---|---|---|
+| **Ergosterol itself** | Membrane ergosterol — extraction into an extramembranous "sterol sponge" | Amphotericin B (deoxycholate, ABLC, liposomal) | Sterol depletion, permeability loss, oxidative injury; **fungicidal** [@gray2012ampbsterol; @anderson2014spongeamb] |
+| **Ergosterol synthesis** | Lanosterol 14α-demethylase (Erg11 / Cyp51A) | Triazoles, tetrazole (oteseconazole), inhaled opelconazole | Ergosterol depletion plus accumulation of toxic 14α-methyl sterols; **fungistatic** vs yeasts, fungicidal vs moulds |
+| **Cell wall β-1,3-glucan** | β-1,3-D-glucan synthase (Fks1 / Fks2) | Echinocandins, rezafungin; triterpenoid ibrexafungerp at a distinct site | Loss of wall integrity and lysis; **fungicidal** vs *Candida*, fungistatic vs *Aspergillus* |
+| **Pyrimidine salvage** | Cytosine deaminase (Fca1) → 5-FU → RNA miscoding and thymidylate synthase inhibition | Flucytosine | **Fungistatic**; requires partner drug |
+| **GPI-anchor maturation** | Gwt1 inositol acyltransferase | Fosmanogepix (prodrug of manogepix) | Mannoproteins fail to anchor to the wall; loss of adhesion, biofilm and germ-tube formation |
+| **Pyrimidine *de novo* synthesis** | Fungal dihydroorotate dehydrogenase (DHODH) | Olorofim (orotomide) | Pyrimidine starvation; **fungicidal** vs moulds, no yeast activity [@oliver2016f901318] |
+| **Iron uptake** | Sit1 siderophore transporter | ATI-2307, VL-2397 class | Fungus-specific transporter-mediated entry |
+
+::: {.keypoint}
+Fungi are eukaryotes: every one of these targets exists because it is **absent or structurally divergent in
+humans**. Olorofim is the cleanest illustration — it inhibits fungal DHODH without meaningful activity against
+the human enzyme [@oliver2016f901318].
+:::
+
+## The pharmacodynamic framework
+
+::: {.columns}
+::: {.column width="54%"}
+| Class | PK/PD index | Driver of effect | Implication for dosing |
+|---|---|---|---|
+| Polyenes | **C~max~/MIC** | Concentration-dependent killing, long post-antifungal effect | Large intermittent doses; single 10 mg/kg liposomal dose is rational |
+| Triazoles | **AUC~0–24~/MIC** | Exposure-dependent, saturable | Total daily exposure matters, not peak; loading doses needed |
+| Echinocandins | **C~max~/MIC** (or AUC/MIC) | Concentration-dependent with prolonged persistence in tissue | Front-loading works; weekly rezafungin exploits this |
+| Flucytosine | **%T > MIC** | Time-dependent, fungistatic | Divided dosing; never monotherapy |
+| Olorofim | **AUC/MIC** (MEC) | Exposure-dependent | Twice-daily oral dosing to a minimum concentration target |
+
+:::
+::: {.column width="46%"}
+::: {.pearl}
+**Why the index matters.** The AUC/MIC ratio predicted efficacy across *Candida*, *Cryptococcus* and
+*Aspergillus* models for the azoles, whereas amphotericin B killing is best described by the ratio of peak
+concentration to MIC [@andes2001pd]. Echinocandin targets differ by species — the free-drug AUC/MIC needed for
+stasis is substantially higher for *C. parapsilosis* than for *C. albicans* [@andes2010echinopd].
+:::
+
+::: {.caution}
+**MIC is not interchangeable across methods.** EUCAST and CLSI values diverge for several agents; rezafungin
+required 0.002% Tween 20 in the medium to stop non-specific binding to plastics from inflating MICs
+[@hoenigl2024novel]. Against moulds, echinocandins and manogepix are read as a **minimum effective
+concentration (MEC)** — the lowest concentration producing short, stubby, aberrantly branched hyphae — not an MIC.
+:::
+:::
+:::

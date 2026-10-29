@@ -1,0 +1,170 @@
+
+## Polyenes · mechanism of action
+
+::: {.columns}
+::: {.column width="55%"}
+- Amphotericin B is an amphipathic polyene macrolide from *Streptomyces nodosus*: a conjugated heptaene
+  chromophore, a polyhydroxylated macrolactone ring, and a mycosamine aminosugar.
+- Four mechanisms have been proposed — pore formation, oxidative damage, surface adsorption, and the
+  **sterol sponge** model, in which large extramembranous aggregates *extract* ergosterol from the bilayer.
+- The sterol sponge is now the best-supported account: killing correlates with simple ergosterol binding
+  rather than with channel formation [@gray2012ampbsterol; @anderson2014spongeamb].
+- Consequences that matter clinically: killing is **rapid and independent of fungal growth rate** (the target
+  is pre-formed, no metabolic activation is needed), and resistance requires remodelling of the sterol
+  pathway itself.
+:::
+::: {.column width="45%"}
+::: {.keypoint}
+**One drug, four formulations.** The active moiety is identical; formulation changes distribution and
+toxicity, **never spectrum**:
+
+- amphotericin B deoxycholate (ABD, 1959)
+- amphotericin B colloidal dispersion (ABCD)
+- amphotericin B lipid complex (ABLC)
+- liposomal amphotericin B (L-AmB)
+:::
+
+::: {.caution}
+**Compounding traps for ABD.** Reconstitute in water or dextrose only — electrolyte-containing diluents
+aggregate the colloid (visible clouding). A 0.22 µm in-line filter removes a substantial fraction of drug.
+:::
+:::
+:::
+
+## Polyenes · microbiology and spectrum
+
+| Organism | Typical MIC~90~ (mg/L) | Comment |
+|---|---|---|
+| *C. albicans*, *C. tropicalis*, *C. parapsilosis* | 0.25–1 | Wild-type; EUCAST/CLSI susceptible ≤1 |
+| *N. glabratus* (*C. glabrata*) | 0.5–1 | Reliably active; MICs slightly higher than *C. albicans* |
+| *C. auris* | 1–>2 | **Amphotericin B resistance in ~30–40% of isolates** |
+| *C. lusitaniae* | variable, often >1 | Classic intrinsic/inducible resistance |
+| *Cryptococcus neoformans* | 0.25–1 | Backbone of induction therapy |
+| *A. fumigatus* | 0.5–2 | Active; *A. terreus*, *A. lentulus*, *A. calidoustus* intrinsically resistant |
+| Mucorales | 0.25–1 | Drug of choice for first-line therapy |
+| *Fusarium* spp. | 1–>8 | Variable; *F. solani* complex least susceptible |
+| *Scedosporium* / *L. prolificans* | >8 | Intrinsically resistant |
+
+::: {.pearl}
+**Where amphotericin B fails on the plate.** Primary resistance clusters in *A. terreus*, *A. calidoustus*,
+*A. lentulus*, *Scedosporium*, *Trichosporon*, and — among yeasts — *C. lusitaniae* and *C. auris*. Acquired
+resistance in normally susceptible species is rare and usually accompanied by reduced growth and virulence,
+reflecting the cost of rebuilding the sterol pathway (*ERG2*, *ERG3* lesions, alternative sterols,
+sphingolipid modulation).
+:::
+
+## Polyenes · ADME
+
+| Parameter | Amphotericin B deoxycholate | Liposomal amphotericin B |
+|---|---|---|
+| **Absorption** | Not orally bioavailable; IV only | IV only (oral encochleated formulation investigational) |
+| **Protein binding** | >95%, principally to β-lipoprotein | High; drug remains liposome-associated in circulation |
+| **C~max~** | 0.5–2.0 mg/L at conventional doses, falling to a 0.2–0.5 mg/L plateau | Markedly higher C~max~ and AUC at equal mg/kg — up to ~10-fold [@groll2019lamb] |
+| **Distribution** | Leaves plasma rapidly, binds cholesterol-containing membranes; stored in liver and other organs; localises to endothelium, including activated endothelium at infection sites | Preferential uptake by the reticuloendothelial system; high liver/spleen concentrations |
+| **Metabolism / elimination** | Degraded *in situ*; only a small fraction excreted in urine or bile | Similar; negligible renal clearance of active drug |
+| **Half-life** | Initial ~24 h; terminal β-phase ~15 days; detectable in serum up to 7 weeks after the last dose | Prolonged; supports intermittent high-dose strategies |
+| **Organ dysfunction** | Blood levels **unaffected** by renal or hepatic failure; **not removed by haemodialysis** | No dose adjustment for renal replacement therapy |
+
+::: {.source}
+Formulation pharmacokinetics compiled from refs [@bellmann2017ampk; @hamill2013lamb; @groll2019lamb].
+:::
+
+## Polyenes · penetration into privileged sites
+
+::: {.columns}
+::: {.column width="56%"}
+- **CSF and brain: poor**, whether or not the meninges are inflamed — yet amphotericin B remains the
+  backbone of cryptococcal meningitis induction. Efficacy there is not explained by CSF concentrations.
+- **Vitreous and aqueous humour: low.** In *inflamed* serosal compartments (pleura, peritoneum, joint,
+  ocular fluids) concentrations are roughly **two-thirds of the trough serum level**.
+- **Urine: concentrations approximate serum** — the only conventional agent besides fluconazole and
+  flucytosine that reliably treats renal parenchymal and urinary *Candida* disease.
+- **Saliva, bronchial secretions, pancreas, muscle, bone: poor.**
+:::
+::: {.column width="44%"}
+::: {.keypoint}
+**The cryptococcal paradox.** Amphotericin B achieves minimal CSF concentrations yet produces the fastest
+rate of CSF sterilisation of any agent. Explanations include cidal activity against organisms in the
+subarachnoid space at low concentrations, high meningeal and choroid-plexus tissue binding, and the
+long tissue residence of drug. The practical lesson: **plasma or CSF concentration is a poor surrogate for
+polyene effect.**
+:::
+:::
+:::
+
+## Polyenes · pharmacodynamics
+
+- **Concentration-dependent killing.** Time–kill and murine models show that effect is best described by
+  **C~max~/MIC**; onset is rapid and unrelated to growth rate [@andes2001pd].
+- **Prolonged post-antifungal effect**, consistent with drug remaining bound to membrane sterols after free
+  concentrations fall.
+- Together these properties justify **large, infrequent dosing** of the liposomal formulation.
+
+::: {.keypoint}
+**Clinical proof of the PD logic.** In AMBITION-cm, a **single 10 mg/kg** dose of liposomal amphotericin B
+plus 14 days of flucytosine and fluconazole was non-inferior to 7 days of daily amphotericin B deoxycholate
+for HIV-associated cryptococcal meningitis, with **less toxicity** [@jarvis2022ambition].
+:::
+
+::: {.caution}
+**More is not always better.** In AmBiLoad, liposomal amphotericin B 10 mg/kg/day for invasive mould disease
+produced no efficacy benefit over 3 mg/kg/day but more nephrotoxicity and hypokalaemia
+[@cornely2007ambiload]. Front-loading works for a single sterilising dose, not as a chronic daily strategy.
+:::
+
+## Polyenes · toxicity
+
+::: {.columns}
+::: {.column width="50%"}
+**Nephrotoxicity — the dose-limiting effect**
+
+- Dose-dependent fall in GFR via direct **afferent arteriolar vasoconstriction**, reducing glomerular and
+  tubular blood flow.
+- Tubular wasting of **potassium, magnesium and bicarbonate**; reduced erythropoietin production.
+- Azotaemia is usually reversible; **permanent loss of function tracks cumulative dose**, not the peak
+  creatinine, and reflects tubular cell destruction and nephron loss.
+- **Saline loading** (≈1 L before each ABD dose) reduces nephrotoxicity in some but not all studies; potassium
+  and magnesium replacement is routinely needed.
+- A rising creatinine to **2–3 mg/dL** is expected at therapeutic ABD doses and is not by itself a reason
+  to stop.
+:::
+::: {.column width="50%"}
+**Infusion-related reactions**
+
+- Chills, fever and tachypnoea begin **30–45 min** after starting the first infusions, peak at 15–30 min,
+  and settle over 2–4 h; attributed to proinflammatory cytokine release.
+- Less common in young children and in patients on corticosteroids; milder with successive doses.
+- Mitigation: paracetamol premedication, hydrocortisone 25–50 mg in the infusion, pethidine for established
+  rigors.
+
+**Other**
+
+- Normocytic normochromic anaemia (haematocrit rarely <20–25%), nausea, anorexia, phlebitis.
+- Rare: thrombocytopenia, arrhythmia, hepatic transaminase elevation, encephalopathy, seizures.
+- **Lipid formulations reduce but do not abolish** nephrotoxicity and infusion reactions.
+- **Virtually no CYP-mediated drug interactions** — but additive nephrotoxicity with calcineurin inhibitors
+  and aminoglycosides.
+:::
+:::
+
+::: {.source}
+**TDM has no established role.** Routine measurement of serum, urine or CSF amphotericin B concentrations
+does not aid management; monitoring is of renal function, potassium and magnesium.
+:::
+
+## Polyenes · clinical use
+
+| Indication | Role |
+|---|---|
+| **Mucormycosis** | First-line therapy, liposomal formulation, high dose [@cornely2019mucormycosis] |
+| **Cryptococcal meningitis** | Induction backbone with flucytosine; single-dose 10 mg/kg L-AmB regimen in resource-limited settings [@jarvis2022ambition; @molloy2018acta] |
+| **Invasive candidiasis** | Alternative to echinocandins; preferred where CNS, ocular or urinary involvement is suspected [@pappas2016idsacandida] |
+| **Invasive aspergillosis** | Second-line, or first-line when azole resistance is likely or azoles cannot be used [@patterson2016idsaaspergillosis; @ullmann2018escmidaspergillosis] |
+| **Endemic mycoses** | Severe/disseminated disease induction, followed by oral triazole step-down |
+| **Empirical therapy in persistent neutropenic fever** | Historical standard; largely replaced by pre-emptive, diagnostic-driven strategies |
+
+::: {.pearl}
+Choose the **lipid formulation** for essentially all systemic indications in high-income settings. Deoxycholate
+retains a role where cost dominates and renal monitoring is feasible — and the single-dose liposomal regimen
+now offers a toxicity-sparing alternative in exactly those settings [@jarvis2022ambition].
+:::

@@ -1,0 +1,65 @@
+
+## The mortality burden is larger than most clinicians assume
+
+::: {.columns}
+::: {.column width="52%"}
+- Approximately **6.5 million** people develop an immediately life-threatening fungal disease each year,
+  with **3.8 million** deaths, of which about **2.5 million (68%)** are directly attributable to the
+  fungal disease itself [@denning2024burden].
+- The single largest contribution to those deaths comes from cases that are never diagnosed, and therefore
+  never treated [@denning2024burden].
+- Mortality is concentrated in a few syndromes: invasive aspergillosis, *Candida* bloodstream
+  infection, cryptococcal meningitis, *Pneumocystis* pneumonia and chronic pulmonary aspergillosis
+  [@denning2024burden; @bongomin2017global]. In the United States alone, fungal disease accounts for
+  substantial excess hospitalisation and cost [@rayens2022mortality].
+- The at-risk population is expanding faster than the therapeutic armamentarium — transplantation,
+  targeted immunotherapy, critical care, and advanced HIV disease in settings with limited diagnostics.
+:::
+::: {.column width="48%"}
+::: {.keypoint}
+**Case fatality, not incidence, is the problem.** For most invasive mould disease, 42-day
+mortality remains 20–50% even with guideline therapy. Improvement will come from earlier diagnosis
+and from agents that reach the infected compartment — not from more of the same mechanism.
+:::
+
+::: {.pearl}
+Fungal disease is also a **resistance** problem with an agricultural driver: azole fungicide use selects
+environmental resistance in *Aspergillus fumigatus* before any patient is exposed to a medical triazole
+[@snelders2008tr34; @fisher2022threats].
+:::
+:::
+:::
+
+## WHO fungal priority pathogens list (2022)
+
+| Priority | Pathogens | Why they are listed |
+|---|---|---|
+| **Critical** | *Cryptococcus neoformans*, *Candida auris*, *Aspergillus fumigatus*, *Candida albicans* | High mortality, rising resistance, diagnostic gaps, inadequate treatment options |
+| **High** | *Nakaseomyces glabratus* (*C. glabrata*), *Histoplasma* spp., eumycetoma agents, Mucorales, *Fusarium* spp., *Candida tropicalis*, *Candida parapsilosis* | Resistance, limited access to therapy, high burden in specific regions |
+| **Medium** | *Scedosporium* spp., *Lomentospora prolificans*, *Coccidioides* spp., *Pichia kudriavzevii* (*C. krusei*), *Cryptococcus gattii*, *Talaromyces marneffei*, *Pneumocystis jirovecii*, *Paracoccidioides* spp. | Intrinsic multiresistance or geographically concentrated burden |
+
+::: {.keypoint}
+The list is a **research and development agenda**, not a treatment guideline. Its practical message for
+pharmacology: the pathogens with the worst outcomes are precisely those for which our existing classes have
+either no activity (*L. prolificans*, *Fusarium*) or unreliable activity (*C. auris*, azole-resistant *A. fumigatus*)
+[@fisher2022threats; @gow2022importance].
+:::
+
+## Why antifungal development is hard
+
+- **Target scarcity.** Fungi are eukaryotes. Pathways that are essential are usually conserved with the host;
+  selectivity must come from fungus-specific enzymes (Erg11, Fks1/2, Gwt1, fungal DHODH) or fungus-specific
+  sterols and cell wall polymers.
+- **Static versus cidal.** Only the polyenes are reliably fungicidal against yeasts *and* moulds; azoles are
+  fungistatic against yeasts and fungicidal against moulds; echinocandins are the reverse.
+- **Sanctuary sites.** CNS, eye, urine and necrotic/abscessed tissue are poorly served by the large, highly
+  protein-bound molecules that otherwise behave well.
+- **Trial design.** Mortality endpoints in heterogeneous, critically ill populations require large samples;
+  the rarest and most resistant infections are studied in single-arm salvage trials.
+
+![](figures/fig_timeline.png){fig-alt="Timeline of first US approval for systemic antifungal agents, 1959 to 2023, colour-coded by class."}
+
+::: {.source}
+Ibrexafungerp (2021), oteseconazole (2022) and rezafungin (2023) ended a long drought; fosmanogepix, olorofim
+and opelconazole are in phase 2/3 [@hoenigl2021pipeline; @hoenigl2024novel].
+:::

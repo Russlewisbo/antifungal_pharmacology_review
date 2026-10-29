@@ -1,0 +1,121 @@
+
+## Olorofim · a new target for mould disease
+
+::: {.columns}
+::: {.column width="55%"}
+**Mechanism**
+
+- First member of the **orotomide** class (F901318). Inhibits **fungal dihydroorotate dehydrogenase (DHODH)**,
+  the rate-limiting enzyme of **de novo pyrimidine biosynthesis** [@oliver2016f901318].
+- Fungi depend on *de novo* synthesis; the **human DHODH is not meaningfully inhibited**, which limits
+  on-target toxicity.
+- **Fungicidal against moulds**; the deficit is structural, not incidental — no activity against **yeasts**
+  (*Candida*, *Cryptococcus*) or **Mucorales**.
+
+**Microbiology**
+
+- Potent against *Aspergillus* spp. **irrespective of azole susceptibility**, including TR~34~/L98H isolates.
+- Active against the organisms with no other options: ***Lomentospora prolificans***, ***Scedosporium*** spp.,
+  *Coccidioides* spp., *Microascus*/*Scopulariopsis*, and other rare moulds; variable against *Fusarium*
+  [@olorofim2021potency; @jenks2024olorofim].
+- **No *in vitro* cross-resistance** with any licensed class.
+:::
+::: {.column width="45%"}
+| PK parameter | Value |
+|---|---|
+| Formulation | **Oral only** (IV in development) |
+| Oral bioavailability | ~**45%** |
+| Solubility / binding | Poorly water-soluble; **highly protein bound** |
+| Metabolism | Multiple CYP450 enzymes **including CYP3A4** |
+| Perpetrator risk | **Weak CYP3A4 inhibitor** — low interaction potential |
+| PD index | AUC/MEC; target **C~min~ ≥0.1–0.2 mg/L** |
+
+**Dosing as studied:** initially weight-based (180–300 mg loading, then 120–240 mg/day in divided doses);
+simplified from patient 59 onward to **150 mg twice on day 1, then 90 mg twice daily**.
+
+::: {.pearl}
+Population PK modelling showed that **weight-based dosing and routine TDM could be dropped** without
+materially changing plasma concentrations — C~min~ consistently exceeded the PD target in both the TDM and
+fixed-dose groups.
+:::
+:::
+:::
+
+## Olorofim · FORMULA-OLS phase 2b {.smaller}
+
+**Design.** Single-arm, open-label, 22 centres in 11 countries. Patients ≥16 years with proven IFD or probable
+invasive pulmonary aspergillosis and **few or no treatment options**: 203 treated, **202 with
+committee-adjudicated IFD** [@maertens2025formulaols].
+
+::: {.columns}
+::: {.column width="50%"}
+**Population** — this is a salvage cohort, not a first-line trial
+
+- *Aspergillus* spp. 101 (**22 azole-resistant**), *Coccidioides* spp. 41,
+  *L. prolificans* 26, *Scedosporium* spp. 22, other 12
+- Reason for enrolment: **failure of available therapy 54%**, resistance to all licensed agents 25%,
+  intolerance 14%
+- 95% had received prior antifungal therapy (median 2 agents); median **75 days** from diagnosis to first dose
+- Sites: lung/sinonasal 62%, **CNS 24%**, bone/joint 17%, disseminated 25%
+:::
+::: {.column width="50%"}
+**Outcomes**
+
+| Endpoint | Day 42 | Day 84 |
+|---|---|---|
+| Global response success | **28.7%** (95% CI 22.6–35.5) | 27.2% (21.2–33.9) |
+| Success with stable disease counted as success | **75.2%** (68.7–81.0) | 63.4% (56.3–70.0) |
+| Clinical response | 59.9% (52.8–66.7) | 54.0% (46.8–61.0) |
+| All-cause mortality | **11.9%** (7.8–17.2) | 16.3% (11.5–22.2) |
+
+By pathogen (global response, day 42): *L. prolificans* **42.3%**, *Scedosporium* 36.4%, *Aspergillus* 34.7%,
+other susceptible moulds 33.3%, **Coccidioides 0%**.
+:::
+:::
+
+::: {.keypoint}
+**Interpreting a 28.7% global response.** The composite requires improvement in clinical, radiological **and**
+mycological components; stable disease counts as failure. In extrapulmonary coccidioidomycosis mycological
+eradication is not achievable at all — yet **75.6%** of those 41 patients had a complete or partial
+**clinical** response. All-cause mortality of 11.9% at day 42 in a cohort that had already failed everything
+is the number that matters most.
+:::
+
+## Olorofim · safety, interactions and place in therapy
+
+::: {.columns}
+::: {.column width="52%"}
+**Safety**
+
+- **Hepatic.** Medically significant liver-enzyme elevations at least possibly attributable to olorofim in
+  **20/203 (10%)**, adjudicated by an independent hepatic advisory committee. Managed by **dose reduction or
+  pause in 14 (7%)** and **permanent discontinuation in 6 (3%)**. All events resolved; **no liver failure and
+  no hepatic deaths**. Events clustered in the first 12 weeks.
+- **Gastrointestinal intolerance** in 10%, predominantly mild or moderate and self-limiting.
+- Adverse events of special interest also included neurological symptoms, hypotension, vertigo, syncope and
+  dry eye.
+- Well tolerated with **>2 years** of continuous therapy in the extended-treatment phase (114 patients,
+  mean 361 days).
+:::
+::: {.column width="48%"}
+**Interactions**
+
+- Fluconazole (moderate CYP3A4/2C9 inhibitor) increased olorofim **AUC~0–72~ by 1.5–1.6×** without a
+  significant C~max~ change.
+- As a **weak CYP3A4 inhibitor**, olorofim required calcineurin-inhibitor dose reduction within 14 days in
+  **9/18 (50%)** patients on ciclosporin (median 50% reduction) and **8/46 (17%)** on tacrolimus (median 29%).
+  **No change** was needed for tyrosine kinase inhibitors or venetoclax.
+
+**Resistance**
+
+- The only mechanism described so far is **target alteration**: substitutions at the **G119** codon of the
+  DHODH gene (*pyrE*) — G119A, G119V, G119S, G119C confirmed in recombinant enzyme — plus one H116P isolate.
+
+::: {.keypoint}
+**Place in therapy.** An oral, fungicidal, mechanistically novel agent for azole-resistant aspergillosis,
+*L. prolificans*, *Scedosporium* and refractory coccidioidomycosis — with CNS activity. The phase 3 **OASIS**
+trial compares oral olorofim with liposomal amphotericin B followed by standard of care in invasive
+aspergillosis, with day-42 all-cause mortality as the primary endpoint.
+:::
+:::
+:::

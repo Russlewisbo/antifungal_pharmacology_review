@@ -1,0 +1,58 @@
+
+## Ten things to carry away {.smaller}
+
+1. **Spectrum, exposure and potency must all align.** Cure fails if any one of the three is missing, and the
+   commonest reason for failure is a drug that cannot reach the compartment.
+2. **Formulation changes distribution and toxicity, never spectrum** — amphotericin B is one drug in four
+   wrappers.
+3. **Amphotericin B works in cryptococcal meningitis despite poor CSF penetration.** Plasma and CSF
+   concentrations are poor surrogates for polyene effect.
+4. **Flucytosine is pharmacokinetically close to ideal and clinically constrained by toxicity, resistance and
+   access.** Always a partner, always monitored.
+5. **For the triazoles, exposure is the variable to control** — AUC/MIC drives efficacy, so loading doses,
+   formulation choice and TDM are not optional extras.
+6. **The azole interaction burden is a therapeutic constraint in its own right**, and the main driver behind
+   inhaled and non-azole alternatives.
+7. **Echinocandins are the safest class and the most anatomically restricted.** Not for CNS, eye, urine, or
+   *Cryptococcus*; reconsider in *C. parapsilosis*.
+8. **Resistance mechanisms are now the organising framework**: *CYP51A* with TR~34~/L98H for azoles, *FKS*
+   hot spots for glucan synthase inhibitors, *FUR1*/*FCA1* for flucytosine, **G119** for olorofim and
+   **Gwt1 V163A** for fosmanogepix.
+9. **The new agents fill specific gaps, not all of them** — weekly IV (rezafungin), oral glucan synthase
+   inhibition with retained activity against FKS mutants (ibrexafungerp), broad oral and IV coverage with CNS
+   and ocular penetration (fosmanogepix), oral fungicidal activity against pan-resistant moulds (olorofim),
+   and lung-targeted delivery without systemic exposure (opelconazole).
+10. **No new agent covers everything.** Olorofim has no yeast or Mucorales activity; opelconazole fails against
+    TR~34~/L98H; ibrexafungerp has limited mould data; fosmanogepix spares *C. krusei*. Combination and
+    sequencing strategies will matter more, not less.
+
+## Where the field is going
+
+::: {.columns}
+::: {.column width="52%"}
+**Questions the phase 3 programmes will answer**
+
+- Does **olorofim** reduce day-42 mortality versus liposomal amphotericin B in invasive aspergillosis (OASIS)?
+- Can **rezafungin** prevent invasive aspergillosis as prophylaxis in allogeneic HSCT (ReSPECT)?
+- Is **oral ibrexafungerp** adequate step-down after echinocandin induction (MARIO)?
+- Does **fosmanogepix** hold up in a randomised candidaemia trial, and is the 33% gastrointestinal
+  discontinuation rate manageable?
+:::
+::: {.column width="48%"}
+**Questions that remain open**
+
+- Will weekly echinocandin exposure **select** FKS resistance in colonising flora?
+- Can pharmacodynamic targets be defined for **sanctuary-site** disease, where no plasma measurement reflects
+  the compartment?
+- Will any agent reach the populations carrying most of the burden? Flucytosine access remains the clearest
+  example of a solved pharmacological problem and an unsolved delivery problem [@denning2024burden].
+- Does **agricultural stewardship** get addressed before environmental pan-azole resistance becomes the norm
+  [@fisher2022threats; @verweij2016azoleres]?
+:::
+:::
+
+::: {.keypoint}
+Three first-in-class approvals since 2021, after two decades with none. The pharmacology to use them well is
+the same pharmacology that governs the older agents: know the target, know where the drug goes, and know how
+much you need once it gets there.
+:::

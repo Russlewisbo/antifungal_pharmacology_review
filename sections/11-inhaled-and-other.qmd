@@ -1,0 +1,54 @@
+
+## Opelconazole · pharmacology delivered to the compartment
+
+::: {.columns}
+::: {.column width="55%"}
+- **PC945** is a triazole **engineered for inhalation**: it inhibits lanosterol 14α-demethylase like the rest
+  of the class, but is formulated as a nebulised suspension with a particle size of ~1–4 µm designed for
+  retention in lung and lower airways.
+- The pharmacological argument is exposure at the site of infection with **negligible systemic exposure**:
+  - plasma **C~max~ 0.951 ng/mL** after 5 mg once daily for 7 days
+  - C~max~ **0.322 ng/mL** at t~max~ 4–5 h after a single 14 mg inhaled dose
+  - oral bioavailability of the swallowed fraction **<0.7%**
+- Typical dose studied: **14.8 mg twice daily**; dose-linear from 1.4–28 mg.
+- Because expected steady-state systemic C~max~ is ≤0.01 µM, **inhibitory drug interactions are considered
+  improbable** — the single biggest practical advantage over the oral triazoles [@cass2021opelconazole].
+:::
+::: {.column width="45%"}
+**Microbiology**
+
+- Potent against *A. fumigatus* and *A. terreus* (**MIC 0.063–0.078 mg/L**); ~2.5-fold more potent than
+  voriconazole against 96 clinical *A. fumigatus* isolates.
+- Markedly less active against *A. flavus* and *A. niger* (**MIC 6–>8 mg/L**).
+- Covers *Candida* (including *C. auris*), *Cryptococcus* and *Trichophyton rubrum*; **no Mucorales activity**
+  (MIC >8 mg/L).
+
+::: {.caution}
+**The critical caveat.** Opelconazole **lacks activity against *A. fumigatus* carrying TR~34~/L98H or
+TR~46~/Y121F/T289A** (MIC >16 mg/L). An inhaled azole does not solve environmental azole resistance.
+:::
+
+::: {.pearl}
+**Evidence so far:** phase 1/2a safety; a compassionate-use series with clinical benefit in 8 of 9 last-resort
+patients; and **OPERA-S**, a phase 2 prophylaxis study in lung transplant recipients where immunosuppressant
+discontinuation was 8% versus 27% with standard of care.
+:::
+:::
+:::
+
+## Other agents worth knowing {.smaller}
+
+| Agent | Target / class | Status and distinguishing feature |
+|---|---|---|
+| **Oral encochleated amphotericin B (MAT2203)** | Amphotericin B in a nanocochleate of lipid bilayers and calcium ions | Protects the drug through the gut and delivers it intracellularly to macrophages. **C~max~ 59.2 ng/mL** — an order of magnitude below liposomal amphotericin B (22,900 ng/mL) and deoxycholate (1400 ng/mL) — yet effective in murine cryptococcal meningoencephalitis with fluorescent particles reaching the brain [@enact2019mbio; @encochleated2020review]. **EnACT** phase 2 in 80 Ugandan adults with HIV-associated cryptococcal meningitis. Topical/VVC programme was inferior to fluconazole |
+| **ATI-2307** | Aromatic diamidine; dissipates the fungal mitochondrial membrane potential (pentamidine-like) | Active against *Candida* and *Cryptococcus*, variable against *Aspergillus*; improved survival in neutropenic *A. fumigatus* mice |
+| **VL-2397 / ASP2397** | **Siderophore** resembling ferrichrome (aluminium rather than iron chelate), taken up by the **Sit1 transporter**, which humans lack | First-in-class fungal-specific uptake; active against *Aspergillus*, *Fusarium solani* and *N. glabratus*; phase 1 completed with infusion-site reactions the main adverse event |
+| **Mandimycin** | Novel polyene macrolide targeting membrane **phospholipids** rather than ergosterol | *In vitro* and *in vivo* activity against multidrug-resistant *C. auris*, *Cryptococcus*, *A. fumigatus*, Mucorales and dimorphic fungi; **no human studies** |
+| **Miltefosine** | Alkylphosphocholine, approved for leishmaniasis | Broad *in vitro* antifungal activity (dermatophytes, *Cryptococcus*, *Candida*, *Sporothrix*, endemic fungi); fungistatic with antibiofilm activity against Mucorales. **GI toxicity and teratogenicity limit use**; clinical antifungal data lacking |
+| **APX2039 / APX2096** | Gwt1 inhibitors of the fosmanogepix family | Optimised for **cryptococcal meningitis**; APX2020/APX2097 for coccidioidomycosis |
+
+::: {.keypoint}
+Two themes: **reformulation to reach a compartment** (inhaled opelconazole, oral encochleated amphotericin B,
+inhaled voriconazole), and **new chemistry against new targets** (Gwt1, DHODH, Sit1, mitochondrial potential,
+phospholipids).
+:::

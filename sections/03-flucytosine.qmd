@@ -1,0 +1,148 @@
+
+## Flucytosine · mechanism of action
+
+::: {.columns}
+::: {.column width="56%"}
+Flucytosine (5-fluorocytosine) is a **prodrug that hijacks fungal pyrimidine salvage**:
+
+1. **Uptake** by the fungal cytosine permease (Fcy2) — absent in human cells.
+2. **Deamination** by fungal **cytosine deaminase (Fca1/Fcy1)** to 5-fluorouracil. Human cells lack this
+   enzyme, which is the basis of selectivity.
+3. 5-FU → **5-fluorouridine triphosphate**, incorporated into RNA causing miscoding and disrupted protein
+   synthesis.
+4. 5-FU → **5-fluorodeoxyuridine monophosphate**, which inhibits **thymidylate synthase** and blocks DNA
+   synthesis.
+
+Net effect is **fungistatic**.
+:::
+::: {.column width="44%"}
+::: {.caution}
+**Resistance is easy and fast — never use alone.**
+
+- *FUR1* C301T → R101C in uracil phosphoribosyltransferase (impaired quaternary structure)
+- Homozygous *FCA1* G28D in cytosine deaminase
+- In *Cryptococcus*: *MBS1*, *UXS1* and *URA6* lesions beyond the salvage pathway
+- In *A. fumigatus*: pH-dependent resistance — the CBC and PacC regulators downregulate the purine–cytosine
+  permease orthologue *fcyB*
+:::
+
+::: {.keypoint}
+Monotherapy selects resistance within days. Flucytosine is a **partner drug**, always.
+:::
+:::
+:::
+
+## Flucytosine · microbiology and spectrum
+
+| Organism | Typical MIC~90~ (mg/L) | Clinical relevance |
+|---|---|---|
+| *C. albicans* | 0.12–0.5 | Highly susceptible; wild-type |
+| *N. glabratus* (*C. glabrata*) | 0.12–0.5 | Susceptible |
+| *C. tropicalis*, *C. parapsilosis* | 0.12–1 | Susceptible |
+| *P. kudriavzevii* (*C. krusei*) | 1–32 | Reduced susceptibility |
+| *Cryptococcus neoformans* / *gattii* | 2–8 | **Key indication** — synergy with amphotericin B |
+| *Aspergillus* spp. | >32 (pH-dependent) | Not clinically useful |
+| Mucorales, *Fusarium*, *Scedosporium* | >64 | No activity |
+
+::: {.pearl}
+Spectrum is essentially **yeasts only**, and the indication is driven by **synergy** rather than by potency:
+amphotericin B permeabilises the membrane and increases flucytosine entry, while flucytosine accelerates
+sterilisation of the CSF.
+:::
+
+## Flucytosine · ADME {.smaller}
+
+| Parameter | Value |
+|---|---|
+| **Oral bioavailability** | Excellent: **78–89%** absorbed in healthy volunteers; peak **30–40 mg/L within 2 h** of a 2 g dose |
+| **Effect of food / antacids** | Absorption **delayed** (not reduced) by food or aluminium hydroxide |
+| **Bioavailability in disease** | Falls to **40–76%** in renal failure and ~**45%** in late-stage HIV infection |
+| **Volume of distribution** | ~**0.6 L/kg** — approximates total body water, independent of renal function |
+| **Protein binding** | **<4%** — effectively unbound drug |
+| **Metabolism** | No conventional hepatic metabolism. About **4%** of an oral dose is deaminated to 5-FU by **intestinal bacterial flora** — enough to reach 5-FU exposures associated with cytotoxicity |
+| **Elimination** | **Renal, unchanged**, by glomerular filtration with little tubular handling; **up to 95% recovered in urine within 24 h** |
+| **Dialysis** | Clearance by haemodialysis is **nearly indistinguishable from creatinine clearance** — dose after dialysis |
+
+::: {.source}
+Parameters as tabulated in the primary chapter source and the standard pharmacology review [@vermes2000flucytosine].
+:::
+
+::: {.keypoint}
+**Renal function is the entire dosing story.** A small, hydrophilic, unbound, renally cleared drug with a narrow
+therapeutic index: every dose must be adjusted to creatinine clearance, and concentrations must be measured.
+:::
+
+## Flucytosine · penetration and pharmacodynamics
+
+::: {.columns}
+::: {.column width="52%"}
+**Penetration — the best of any antifungal**
+
+- **CSF: 60–90% of the simultaneous serum concentration.**
+- Peritoneal fluid: 5% to nearly 50% of serum, increasing with inflammation.
+- Also penetrates bronchial secretions and articular fluid well.
+- **Urine: up to 95% of the dose appears as active drug** — reliably sterilises *Candida* cystitis and renal
+  parenchymal disease.
+:::
+::: {.column width="48%"}
+**Pharmacodynamics**
+
+- **Fungistatic** in time–kill and murine models.
+- Substantial **post-antifungal effect**: 2–4 h *in vitro*, 3.3–15.1 h *in vivo*; the effect increases with
+  concentrations up to ~4× MIC.
+- The index that best predicts efficacy is **%T > MIC**, supporting conventional divided dosing
+  (100 mg/kg/day in four divided doses).
+:::
+:::
+
+::: {.pearl}
+A time-dependent, fungistatic agent with near-complete oral absorption, free drug distribution into every
+compartment of interest, and renal elimination — pharmacologically close to ideal, and limited almost entirely
+by **toxicity and resistance**, not by exposure.
+:::
+
+## Flucytosine · toxicity and therapeutic drug monitoring
+
+::: {.columns}
+::: {.column width="52%"}
+**Toxicity is largely 5-FU toxicity**
+
+- **Dose-related myelosuppression** — neutropenia and thrombocytopenia; the principal risk, and the reason
+  for monitoring.
+- **Hepatotoxicity**: transaminase elevation, usually reversible.
+- **Gastrointestinal**: nausea, vomiting, diarrhoea; severe enterocolitis is described.
+- Risk rises steeply with **accumulation in renal impairment** and with intestinal conversion to 5-FU.
+:::
+::: {.column width="48%"}
+**TDM is mandatory, not optional**
+
+| | Target |
+|---|---|
+| Peak (2 h post-dose) | **30–80 mg/L** |
+| Concentration to avoid | **>100 mg/L** — strongly associated with marrow and hepatic toxicity |
+| Sampling | At steady state (~day 3–4) and after every dose change or change in renal function |
+
+::: {.caution}
+Fifteen years of UK monitoring experience confirm that a substantial proportion of patients fall outside the
+target range on standard weight-based dosing, chiefly because of unrecognised renal impairment
+[@pasqualotto2007flucytosinetdm; @ashbee2014tdmguideline].
+:::
+:::
+:::
+
+## Flucytosine · clinical use
+
+| Indication | Regimen and evidence |
+|---|---|
+| **Cryptococcal meningitis — induction** | With amphotericin B. In the ACTA trial, **one week** of amphotericin B deoxycholate plus flucytosine was as effective as two weeks and less toxic; oral fluconazole plus flucytosine was an effective all-oral alternative where amphotericin B is unavailable [@molloy2018acta] |
+| | Adding flucytosine to amphotericin B improves the rate of CSF sterilisation and survival compared with amphotericin B alone [@day2013combination] |
+| | Now also the partner for **single-dose 10 mg/kg liposomal amphotericin B** [@jarvis2022ambition] |
+| **Candida CNS infection, endophthalmitis** | Added to amphotericin B for sanctuary-site penetration [@pappas2016idsacandida] |
+| **Candida urinary tract infection** | Option for fluconazole-resistant *Candida* cystitis — short courses only, because resistance emerges rapidly |
+| **Chromoblastomycosis, selected rare moulds** | Adjunctive, historical |
+
+::: {.keypoint}
+**Access, not evidence, is the limiting factor.** Flucytosine is unavailable or unaffordable in much of the
+region carrying the greatest cryptococcal burden — a major contributor to global cryptococcal mortality
+[@denning2024burden; @molloy2018acta].
+:::

@@ -1,0 +1,39 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$presentation-font-size-root: 30px !default;
+$body-color: #1b2733 !default;
+$link-color: #1b6ca8 !default;
+$presentation-heading-color: #0d3b66 !default;
+$presentation-heading-font-weight: 600 !default;
+
+/*-- scss:rules --*/
+.reveal .slides section { text-align: left; }
+.reveal h1, .reveal h2, .reveal h3 { letter-spacing: -0.01em; }
+.reveal h2 { border-bottom: 2px solid #c8d6e5; padding-bottom: .15em; margin-bottom: .4em; }
+
+.reveal table { font-size: 0.62em; border-collapse: collapse; }
+.reveal table th { background: #0d3b66; color: #fff; font-weight: 600; padding: .25em .45em; }
+.reveal table td { padding: .2em .45em; border-bottom: 1px solid #dde4ec; vertical-align: top; }
+.reveal table tr:nth-child(even) td { background: #f4f7fb; }
+
+.reveal .small { font-size: 0.72em; }
+.reveal .smaller-table table { font-size: 0.52em; }
+.reveal .footnote, .reveal .source { font-size: 0.5em; color: #5a6b7d; margin-top: .6em; }
+
+.keypoint {
+  background: #eef4fa; border-left: 5px solid #0d3b66;
+  padding: .5em .8em; margin: .5em 0; font-size: 0.82em;
+}
+.pearl {
+  background: #fff6e5; border-left: 5px solid #d98c00;
+  padding: .5em .8em; margin: .5em 0; font-size: 0.82em;
+}
+.caution {
+  background: #fdecee; border-left: 5px solid #b3202c;
+  padding: .5em .8em; margin: .5em 0; font-size: 0.82em;
+}
+.reveal .columns { gap: 1.2em; }
+.reveal section img { border: none; box-shadow: none; }
+#refs { font-size: 0.42em; }
+#refs .csl-entry { margin-bottom: .25em; }
+.reveal .section-title h1 { color: #fff; }

@@ -1,0 +1,79 @@
+
+## Ibrexafungerp · the first oral glucan synthase inhibitor
+
+::: {.columns}
+::: {.column width="55%"}
+**Mechanism**
+
+- First agent of the **triterpenoid** class (formerly SCY-078). Inhibits **β-1,3-D-glucan synthesis**, as the
+  echinocandins do, but binds a **distinct site on the catalytic subunit** with only partial overlap.
+- The practical consequence is **limited cross-resistance**: most echinocandin-resistant FKS mutants —
+  particularly *N. glabratus* and *C. auris* — remain susceptible [@ghannoum2018ibrexa].
+- Cross-resistance is confined to a small number of substitutions at the initial phenylalanine codon:
+  **F641S** (*C. albicans* Fks1), **F659del** and **F659L** (*N. glabratus* Fks2). Thirteen other alterations
+  outside that codon did **not** confer cross-resistance.
+
+**Microbiology**
+
+- Broad anti-*Candida* activity including *C. auris*; activity against *Aspergillus* (MEC endpoint);
+  some activity against *Pneumocystis* in murine models; **no Mucorales or *Fusarium* activity**.
+- EUCAST testing shows a **partial inhibition (trailing) pattern** in ~10% of *C. parapsilosis*, ~2% of
+  *C. tropicalis* and ~1% of *C. dubliniensis*, which complicates MIC reading.
+:::
+::: {.column width="45%"}
+| PK parameter | Value |
+|---|---|
+| Oral bioavailability | ~**36%** |
+| Food effect | **AUC increased ~40%** — give with food |
+| Protein binding | **99.7%** |
+| Half-life | ~**2 days** |
+| Linearity | Linear, 10–1600 mg single dose |
+
+**Tissue:blood AUC ratios** (animal): spleen **54×**, liver **50×**, lung **31×**, bone marrow **25×**,
+kidney **20×**, skin 12–18×, **vaginal tissue 9×**, skeletal muscle 4×.
+
+::: {.pearl}
+High tissue distribution with **low CSF penetration** — the profile of a tissue-directed oral step-down agent,
+not a CNS drug.
+:::
+:::
+:::
+
+## Ibrexafungerp · clinical evidence and safety
+
+::: {.columns}
+::: {.column width="55%"}
+| Trial | Result |
+|---|---|
+| **VANISH-303** (acute VVC, US) | Clinical cure **50.5% vs 28.6%** placebo (RR 1.70, 95% CI 1.2–2.5); mycological eradication 49.5% vs 19.4% [@sobel2022vanish] |
+| **VANISH-306** (US/Bulgaria) | Clinical cure RR **1.35** (95% CI 1.06–1.73); superior on all secondary endpoints |
+| **DOVE** (dose-finding) | **300 mg twice for one day** selected — higher doses added GI toxicity without efficacy |
+| **FURI** (phase 3, open-label, refractory/intolerant IFD) | 113 patients: **clinical benefit in 83%**, complete or partial response **58%**, stable disease 24%. Among 10 with invasive pulmonary aspergillosis, 4 (40%) responded |
+| **FURI** intra-abdominal subgroup | 17 patients, 71% with prior echinocandin failure: complete/partial response **53%**, stable disease 41% |
+| **CARES** (*C. auris*) | Open-label single-arm, as add-on or monotherapy |
+| **MARIO** (phase 3) | Oral ibrexafungerp as **step-down after IV echinocandin** for invasive candidiasis |
+| **SCYNERGIA** | Combination with voriconazole in invasive aspergillosis — **terminated for slow enrolment** |
+:::
+::: {.column width="45%"}
+**Safety**
+
+- Predominantly **gastrointestinal**: abdominal pain, nausea, diarrhoea; also dizziness and headache. Events
+  are generally mild–moderate and self-limiting (~1 day).
+- In the VVC programme, treatment-related adverse events occurred in 46.7% versus 25% with fluconazole, but
+  without excess discontinuation.
+- **Animal studies indicate potential fetal harm**: contraindicated in pregnancy; contraception is required
+  during treatment and for 4 days afterwards.
+
+**Interactions** — a CYP3A4 substrate that is itself a modest perpetrator:
+
+- Inhibitor of CYP2C8; weak inhibitor of CYP2C9 and CYP2D6
+- Weak inducer of CYP2B6; **moderate inducer of CYP1A2, CYP2C19 and CYP3A4**
+- Substrate exposure changes: **tacrolimus AUC ×1.4**, dabigatran ×1.4, **pravastatin ×2.8**
+
+::: {.keypoint}
+**Place in therapy:** approved for VVC and recurrent VVC (300 mg twice daily for one day); the real prize is
+**oral step-down** for invasive candidiasis and salvage therapy for echinocandin-resistant *N. glabratus* and
+*C. auris* [@azie2020furi; @ordaya2023novel].
+:::
+:::
+:::

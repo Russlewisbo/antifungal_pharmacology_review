@@ -1,0 +1,66 @@
+
+## Classes at a glance {.smaller}
+
+::: {.smaller-table}
+| | Polyenes | Flucytosine | Triazoles | Echinocandins | Triterpenoid | Gwt1 inhibitor | Orotomide |
+|---|---|---|---|---|---|---|---|
+| **Target** | Ergosterol | Pyrimidine salvage | Cyp51/Erg11 | Fks1/2 glucan synthase | Glucan synthase (distinct site) | Gwt1 / GPI anchor | Fungal DHODH |
+| **Effect** | Fungicidal (yeast + mould) | Fungistatic | Static vs yeast, cidal vs mould | Cidal vs yeast, static vs mould | Cidal vs yeast | Cidal/static, broad | Cidal vs mould |
+| **Route** | IV | Oral, IV | Oral, IV | IV | **Oral** | **IV + oral** | **Oral** |
+| **Yeasts** | Yes | Yes | Yes | Yes | Yes | Yes | **No** |
+| **Moulds** | Yes | No | Variable | MEC only | Limited | Yes | Yes |
+| **Mucorales** | **Yes** | No | Posa/isavu only | No | No | Variable | **No** |
+| **CNS** | Poor CSF, works clinically | **Excellent** | Flu/vori good | **No** | Low | **Good** | Good |
+| **Urine** | Yes | **Yes** | Fluconazole only | **No** | Low | Moderate | Low |
+| **CYP interactions** | None | None | **Major** | Minimal | Moderate | Minimal to date | Weak (CYP3A4) |
+| **Dose-limiting toxicity** | Nephrotoxicity | **Myelosuppression** | Hepatic, visual, skin | None dose-limiting | GI | GI | **Hepatic** |
+| **TDM** | No | **Mandatory** | Itra/vori/posa | No | No | No | Optional |
+:::
+
+## Pharmacokinetics compared {.smaller}
+
+::: {.smaller-table}
+| Agent | Oral F | Protein binding | t~½~ | Primary elimination | Renal adjust | Hepatic adjust |
+|---|---|---|---|---|---|---|
+| Amphotericin B deoxycholate | — | >95% | ~24 h (β ~15 d) | Degraded *in situ* | **No** | No |
+| Liposomal amphotericin B | — | High | Prolonged | Reticuloendothelial uptake | **No** | No |
+| Flucytosine | 78–89% | **<4%** | 3–6 h | **Renal, unchanged (95%)** | **Yes — critical** | No |
+| Fluconazole | >90% | ~10% | ~30 h | **Renal, unchanged (80%)** | **Yes** | No |
+| Itraconazole | Erratic | 99.8% | 21–64 h | CYP3A4 | No | Caution |
+| Voriconazole | ~96% | ~58% | ~6 h (non-linear) | CYP2C19/2C9/3A4 | IV vehicle accumulates | **Yes** |
+| Posaconazole (tablet/IV) | High | >98% | 25–31 h | UGT1A4, P-gp | No | No |
+| Isavuconazole | ~98% | >99% | ~130 h | CYP3A4/3A5, UGT | No | No |
+| Caspofungin | <10% | 96–97% | 9–11 h | Hepatic uptake, degradation | No | **Yes (35 mg)** |
+| Anidulafungin | 2–7% | 84–99% | 24–26 h | **Chemical degradation in plasma** | No | No |
+| Micafungin | <10% | ≥99% | 11–17 h | COMT pathway | No | No |
+| **Rezafungin** | <10% | 97% | **>130 h** | Faecal, unchanged | No | No |
+| **Ibrexafungerp** | ~36% (food ↑40%) | 99.7% | ~2 d | CYP3A4 | No | Caution |
+| **Fosmanogepix** | High (IV + oral) | — | — | — | No | — |
+| **Olorofim** | ~45% | High | — | Multiple CYPs incl. 3A4 | — | Caution (hepatic AEs) |
+| **Opelconazole** | <0.7% swallowed | — | Lung-retained | Local | No | No |
+:::
+
+## Reaching the infection: privileged sites
+
+![](figures/fig_penetration.png){width="70%" fig-alt="Matrix of antifungal agents versus anatomical sites showing negligible, low, moderate and high penetration."}
+
+::: {.keypoint}
+**Clinical translation.** CNS candidiasis → amphotericin B + flucytosine, or fluconazole. *Candida*
+endophthalmitis → amphotericin B ± flucytosine, or voriconazole/fluconazole. *Candida* cystitis → fluconazole,
+flucytosine or amphotericin B deoxycholate. **Never** an echinocandin alone for any of the three.
+:::
+
+## Choosing by syndrome {.smaller}
+
+| Syndrome | First-line | Key alternatives | Pharmacological reason |
+|---|---|---|---|
+| **Candidaemia, non-neutropenic** | Echinocandin | Fluconazole step-down when susceptible; **rezafungin** for weekly outpatient therapy | Fungicidal, safe, covers azole-resistant species |
+| **Candidaemia with eye or CNS involvement** | Liposomal amphotericin B ± flucytosine | Fluconazole or voriconazole if susceptible | Echinocandins do not reach these sites |
+| ***C. auris*** | Echinocandin | **Ibrexafungerp**, **fosmanogepix** (investigational) | 90% azole-resistant; 30–40% amphotericin B-resistant |
+| **Echinocandin-resistant *N. glabratus*** | **Ibrexafungerp** (distinct binding site) | High-dose amphotericin B | Most FKS mutants retain ibrexafungerp susceptibility |
+| **Invasive aspergillosis** | Voriconazole or isavuconazole | Posaconazole; L-AmB; **olorofim** if resistant | Mould-active azole with good lung exposure |
+| **Azole-resistant aspergillosis** | L-AmB ± echinocandin | **Olorofim** (oral, fungicidal) | No cross-resistance with the azole target |
+| **Mucormycosis** | Liposomal amphotericin B + surgery | Isavuconazole, posaconazole | Only polyenes and two azoles have activity |
+| **Cryptococcal meningitis** | Amphotericin B + flucytosine induction | Single-dose 10 mg/kg L-AmB + flucytosine/fluconazole | Flucytosine penetration + polyene cidality |
+| ***L. prolificans* / *Scedosporium*** | No licensed effective option | **Olorofim**, **fosmanogepix** | Intrinsic pan-resistance |
+| **Chronic/allergic pulmonary aspergillosis** | Itraconazole or voriconazole | **Opelconazole** (inhaled, investigational) | Long courses; interaction burden favours local delivery |

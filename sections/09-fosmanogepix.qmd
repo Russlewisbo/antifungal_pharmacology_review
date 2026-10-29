@@ -1,0 +1,73 @@
+
+## Fosmanogepix · inhibiting GPI-anchor maturation
+
+::: {.columns}
+::: {.column width="56%"}
+**Mechanism**
+
+- **Fosmanogepix is a phosphate prodrug**, rapidly and completely cleaved by **systemic alkaline phosphatases**
+  to the active moiety **manogepix (APX001A)**.
+- Manogepix inhibits **Gwt1**, the inositol acyltransferase that acylates inositol during
+  **glycosylphosphatidylinositol (GPI) anchor biosynthesis**.
+- Without mature GPI anchors, mannoproteins cannot be cross-linked to β-1,6-glucan in the wall. The result is
+  loss of adhesion, **failure of biofilm and germ-tube formation**, cell wall unmasking and loss of viability.
+- The target is **fungus-specific** and mechanistically unrelated to every licensed class — no cross-resistance.
+
+**Microbiology**
+
+- Very broad: *Candida* (including *C. auris*), *Cryptococcus*, *Aspergillus* (including azole-resistant),
+  ***Fusarium***, ***Scedosporium*** and *Lomentospora*, endemic dimorphic fungi; **variable against Mucorales**.
+- **Notable gap: *P. kudriavzevii* (*C. krusei*)** has reduced susceptibility and was **excluded** from the
+  candidaemia trials.
+- Mould activity is read as an **MEC**; MECs against endemic dimorphic fungi are very low (<0.008 mg/L).
+:::
+::: {.column width="44%"}
+::: {.keypoint}
+**Why it matters for privileged sites.** In a rabbit model of haematogenous *Candida* meningoencephalitis,
+manogepix **meninges- and brain-tissue to plasma ratios were approximately 1:1**, with a significant fall in
+*C. albicans* tissue burden. Radiolabelled drug distributed widely in rats and monkeys — including **lung,
+brain, eye and uveal tract** [@fosmanogepix2021eye].
+:::
+
+::: {.pearl}
+**Resistance** is already characterised: target alteration **V163A in Gwt1** (*N. glabratus*; V162A in
+*C. albicans*) and **efflux induction** — a *ZCF29* gain-of-function activating *CDR1*/*SNQ2* in *C. albicans*,
+and *MDR1* activation in *C. parapsilosis*.
+:::
+:::
+:::
+
+## Fosmanogepix · pharmacology and clinical evidence
+
+::: {.columns}
+::: {.column width="48%"}
+**Pharmacology**
+
+- Available **intravenously and orally** — the key practical advantage.
+- Phase 1 programme: single IV doses 10–350 mg and multiple doses 50–600 mg daily for 14 days; oral tablet
+  doses 100–500 mg with food-effect assessment.
+- **PD target:** against wild-type and *CYP51A*-mutant *A. fumigatus*, the free-drug **AUC/MEC associated with
+  a 1-log kill was ~89** (total AUC/MEC ~5258) [@shaw2020fosmanogepix; @zhao2018fosmanopd].
+- **No clinically relevant drug interactions reported to date**; dedicated CYP interaction studies completed
+  but unpublished.
+
+**Typical trial regimen**
+
+1000 mg IV twice daily on day 1 → 600 mg IV daily → **600 mg IV or 700–800 mg orally once daily**.
+:::
+::: {.column width="52%"}
+| Trial | Result |
+|---|---|
+| **Candidaemia** (phase 2, NCT03604705) | **16/20 (80%)** met treatment success (clearance of *Candida* without additional antifungal and survival at day 42); blood cultures negative after a mean of **2.4 days**; day-30 survival **85%**; efficacy seen in amphotericin B- and anidulafungin-resistant isolates [@vazquez2023fosmanogepix] |
+| **APEX** — *C. auris* candidaemia (NCT04148287) | **8/9 (89%)** cleared *C. auris* from blood |
+| **AEGIS** — invasive mould disease (phase 2) | 20 patients: **40% successful response**; all-cause mortality at day 42 **25%** (80% CI 12.7–41.5), meeting the predefined target of <45%. Discontinued for toxicity in **7 (33%)**, usually nausea and anorexia |
+| ***Fusarium solani* meningitis outbreak** (2023) | Used under compassionate access when isolates tested resistant to all licensed agents; recommended as part of triple therapy |
+| **Phase 3** | Candidaemia/invasive candidiasis programme planned (~450 participants) |
+
+::: {.caution}
+**Read the AEGIS numbers carefully.** A 40% global response in salvage mould disease is encouraging, but a
+**33% toxicity-driven discontinuation rate** — mainly gastrointestinal — is the signal to watch, and dose
+splitting resolved it in only 3 of 5 patients.
+:::
+:::
+:::

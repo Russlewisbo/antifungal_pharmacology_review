@@ -1,0 +1,27 @@
+
+## Therapeutic drug monitoring · consolidated
+
+| Agent | Target | Rationale | Practical notes |
+|---|---|---|---|
+| **Flucytosine** | **Peak 30–80 mg/L**; avoid >100 mg/L | Narrow therapeutic index; myelosuppression is exposure-related | Sample 2 h post-dose at steady state; repeat with any change in renal function [@pasqualotto2007flucytosinetdm] |
+| **Voriconazole** | **Trough 1–5.5 mg/L** | Non-linear kinetics, CYP2C19 polymorphism, concentration-dependent neurotoxicity and hepatotoxicity | Day 4–7 and after every dose change; TDM improves response and reduces discontinuation [@pascual2008voritdm; @park2012voritdm] |
+| **Itraconazole** | **Trough >0.5–1 mg/L** | Erratic, formulation- and food-dependent absorption | Measure in every patient on treatment |
+| **Posaconazole** | **≥0.7 mg/L** prophylaxis; **≥1.0–1.25 mg/L** treatment | Suspension absorption saturable and pH-dependent | Tablet/IV usually adequate; still check in GI disease, mucositis, diarrhoea |
+| **Isavuconazole** | Not routinely required | Linear kinetics, predictable exposure | Consider in obesity, ECMO, renal replacement, poor response |
+| **Fluconazole** | Not routinely defined | High, predictable bioavailability | Consider at high dose (coccidioidomycosis), renal dysfunction, morbid obesity |
+| **Echinocandins / rezafungin** | **Not indicated** | Predictable exposure, wide therapeutic index, no concentration–toxicity relationship | — |
+| **Amphotericin B** | **Not indicated** | Concentrations do not predict effect or toxicity | Monitor creatinine, potassium, magnesium instead |
+| **Olorofim** | **C~min~ ≥0.1–0.2 mg/L** (optional) | PD target-driven; fixed dosing achieved the target without TDM in phase 2b | May be dropped with the simplified fixed-dose regimen |
+
+::: {.keypoint}
+**When TDM earns its place:** non-linear kinetics (voriconazole), erratic absorption
+(itraconazole, posaconazole suspension), a narrow therapeutic index (flucytosine), or a concentration-defined
+toxicity (voriconazole neurotoxicity). Otherwise it is a cost without a decision
+[@ashbee2014tdmguideline; @johnson2018tdm].
+:::
+
+::: {.pearl}
+**Interpretation needs the MIC.** A voriconazole trough of 1.5 mg/L is comfortable against an
+*A. fumigatus* with an MIC of 0.25 mg/L and inadequate against one with an MIC of 2 mg/L. TDM without
+susceptibility testing is half an answer.
+:::

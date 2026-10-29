@@ -1,0 +1,91 @@
+---
+title: "Systemic Antifungal Pharmacology"
+subtitle: "Mechanism · Microbiology · ADME · Pharmacodynamics · Toxicity — from the polyenes to the orotomides"
+author: "Russell E. Lewis"
+date: today
+date-format: "D MMMM YYYY"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    width: 1280
+    height: 720
+    slide-number: c/t
+    show-slide-number: all
+    smaller: true
+    scrollable: true
+    progress: true
+    hash-type: number
+    link-external-newwindow: true
+    citations-hover: true
+    history: true
+    menu:
+      side: left
+      width: wide
+    fig-align: center
+    embed-resources: true
+bibliography: references.bib
+csl: vancouver.csl
+link-citations: true
+---
+
+## Scope and objectives {.smaller}
+
+This lecture covers the **systemically administered** antifungal agents: the four established
+classes and the investigational agents now in late-phase development.
+
+By the end you should be able to:
+
+1. Map each class to its molecular target and explain why the eukaryotic nature of fungi constrains target choice.
+2. State the spectrum of each agent in terms of **MIC/MEC distributions** rather than species lists alone.
+3. Predict exposure at the site of infection from ADME properties — including CSF, vitreous, urine and lung.
+4. Select the correct **PK/PD index** for each class and the target magnitude that drives efficacy.
+5. Recognise the toxicities and interactions that limit each agent, and know when therapeutic drug monitoring changes management.
+6. Place rezafungin, ibrexafungerp, fosmanogepix, olorofim and opelconazole in the current therapeutic landscape.
+
+::: {.keypoint}
+**Organising principle.** Spectrum tells you *whether* a drug can work; pharmacokinetics tells you *where*
+it can work; pharmacodynamics tells you *how much* you need. All three must hold for a patient to be cured.
+:::
+
+# Part 1 · The clinical problem {background-color="#0d3b66" .section-title}
+
+{{< include sections/00-burden.qmd >}}
+
+{{< include sections/01-targets.qmd >}}
+
+# Part 2 · Established agents {background-color="#0d3b66" .section-title}
+
+{{< include sections/02-polyenes.qmd >}}
+
+{{< include sections/03-flucytosine.qmd >}}
+
+{{< include sections/04-triazoles.qmd >}}
+
+{{< include sections/05-echinocandins.qmd >}}
+
+# Part 3 · Agents in late-phase development {background-color="#0d3b66" .section-title}
+
+{{< include sections/06-unmet-need.qmd >}}
+
+{{< include sections/07-rezafungin.qmd >}}
+
+{{< include sections/08-ibrexafungerp.qmd >}}
+
+{{< include sections/09-fosmanogepix.qmd >}}
+
+{{< include sections/10-olorofim.qmd >}}
+
+{{< include sections/11-inhaled-and-other.qmd >}}
+
+# Part 4 · Putting it together {background-color="#0d3b66" .section-title}
+
+{{< include sections/12-comparisons.qmd >}}
+
+{{< include sections/13-tdm.qmd >}}
+
+{{< include sections/14-closing.qmd >}}
+
+## References {.smaller}
+
+::: {#refs}
+:::
