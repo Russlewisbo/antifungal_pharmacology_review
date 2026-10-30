@@ -738,6 +738,12 @@ asymmetry explains why azoles work as step-down and prophylaxis in
 candidiasis, but can be curative monotherapy in aspergillosis.
 :::
 
+::: pearl
+The tetrazole scaffold of oteseconazole replaces the triazole
+iron-binding group to gain selectivity for fungal Cyp51 over human CYP
+enzymes — fewer interactions, fewer off-target effects.
+:::
+
 <br>
 
 ## Triazoles · comparative spectrum and MICs {.smaller}
@@ -775,18 +781,18 @@ sequence); *L. prolificans* is resistant to every licensed agent.
 <br>
 
 ::::: columns
-::: {.column width="50%"}
+::: {.column width="45%"}
 **In *Candida***
 
-- Overexpression of **ERG11** plus efflux via **MDR1, CDR1, CDR2** — the
-  dominant mechanism in *C. albicans*; point substitutions are less
+- Overexpression of **ERG11** plus efflux via **MDR1, CDR1, CDR2** is
+  the dominant mechanism in *C. albicans*; point substitutions are less
   common.
 - *N. glabratus*: efflux (**Cdr1, Cdr2**); resistance can sometimes be
   overcome by higher exposure, but an alternative class is recommended
   for invasive disease. A **mismatch-repair "mutator" phenotype**
   facilitates multiclass resistance.
-- *P. kudriavzevii*: **intrinsic** fluconazole resistance from *ERG11*
-  sequence.
+- *P. kudriavzevii*: **intrinsic** fluconazole resistance from <br>
+  *ERG11* sequence.
 - *C. parapsilosis*: emerging fluconazole resistance, mostly **Y132F in
   Erg11**.
 - *C. auris*: largely fluconazole-resistant via *ERG11* mutations,
@@ -794,7 +800,7 @@ sequence); *L. prolificans* is resistant to every licensed agent.
 - Cross-resistance with amphotericin B occurs via **ERG2/ERG3** lesions.
 :::
 
-::: {.column width="50%"}
+::: {.column width="45%"}
 **In *Cryptococcus***
 
 - Mostly **heteroresistance**: unstable, transient adaptation from
@@ -852,6 +858,8 @@ per the primary chapter source.
 | **Epithelial lining fluid / lung** | Good | High | Good; high alveolar macrophage concentrations | Good | Moderate |
 | **Saliva / mucosa** | Excellent | Good | Good | Good | Moderate |
 
+<br> <br>
+
 ::: keypoint
 **Two site-specific rules.** For *Candida* urinary tract disease,
 fluconazole (or flucytosine, or amphotericin B) — **not** an
@@ -879,13 +887,15 @@ penetration but low CSF concentrations.
 ::: {.column width="52%"}
 | Agent | Trough target | When to measure |
 |------------------------|------------------------|------------------------|
-| **Fluconazole** | Not routinely defined | High-dose coccidioidomycosis, renal dysfunction, morbid obesity |
+| **Fluconazole** | Not routinely defined | High-dose coccidioidomycosis, renal dysfunction or augmented clearance, CVVHD, morbid obesity |
 | **Itraconazole** | **\>0.5–1 mg/L** (itraconazole; some add hydroxy-metabolite) | All patients — absorption is erratic |
 | **Voriconazole** | **1–5.5 mg/L**: \>1–2 for efficacy, **\<5.5 to avoid neurotoxicity** | All patients, day 4–7, after any dose change |
-| **Posaconazole** | **≥0.7 mg/L** prophylaxis; **≥1.0–1.25 mg/L** treatment | Suspension always; tablet/IV if absorption or response in doubt |
-| **Isavuconazole** | Not routinely required | Obesity, ECMO, poor response, significant interactions |
+| **Posaconazole** | **≥0.7 mg/L** prophylaxis; **≥1.0–1.25 mg/L** treatment | Always for suspension always; tablet/IV if absorption or response in doubt or suspected toxicites |
+| **Isavuconazole** | Not routinely required | Obesity, low body weight, ECMO, poor response, significant interactions. suspected toxicity |
 :::
 :::::
+
+<br> <br>
 
 ::: keypoint
 **Voriconazole TDM changes outcomes.** Observational and randomised data
@@ -900,7 +910,7 @@ reduces drug discontinuation for toxicity** [@pascual2008voritdm;
 <br>
 
 :::::: columns
-::: {.column width="54%"}
+::: {.column width="45%"}
 **Mechanism.** All triazoles inhibit **CYP3A4**; fluconazole and
 voriconazole additionally inhibit **CYP2C9** and **CYP2C19**.
 Itraconazole has the largest interaction burden; fluconazole and
@@ -921,8 +931,8 @@ posaconazole **suspension** (not the tablet).
 
 | Substrate | Consequence |
 |------------------------------------|------------------------------------|
-| Tacrolimus, ciclosporin, sirolimus | Large exposure increases; pre-emptive dose reduction and TDM. Voriconazole's effect on tacrolimus is **greater with oral than IV** administration |
-| Venetoclax, ibrutinib, midostaurin, ruxolitinib, glasdegib | Major exposure increases; dose reduction per label |
+| Tacrolimus, cyclosporin, sirolimus | Large exposure increases; pre-emptive dose reduction and TDM. Voriconazole's effect on tacrolimus is **greater with oral than IV** administration |
+| Venetoclax, ibrutinib, midostaurin, ruxolitinib, glasdegib | Major exposure increases; dose reduction per label and/or careful monitoring |
 | Vinca alkaloids | Neurotoxicity — **avoid** |
 | Statins (CYP3A4-dependent) | Myopathy risk |
 | QT-prolonging agents (pimozide, quinidine, dofetilide, terfenadine, cisapride) | **Contraindicated** |
@@ -948,6 +958,8 @@ effect — and is contraindicated in familial short QT syndrome.
 | **Isavuconazole** | Best-tolerated of the mould-active triazoles; GI upset, hepatotoxicity, infusion reactions; **QT shortening** |
 | **Oteseconazole** | Headache (7.4%) and nausea (3.6%); only 1 of 580 women in phase 3 discontinued for an adverse event. **Ocular abnormalities in rat offspring** at \~3.5× clinical exposure — contraindicated in pregnancy and in women of reproductive potential |
 
+<br> <br>
+
 ::: caution
 **The chronic-voriconazole triad** — photosensitivity, periostitis with
 fluoride excess, and squamous cell carcinoma — is the main reason
@@ -967,6 +979,20 @@ posaconazole and isavuconazole.
 | **Posaconazole** | Prophylaxis in AML/MDS neutropenia and in severe GVHD [@cornely2007posaprophylaxis; @ullmann2007posagvhd]; non-inferior to voriconazole for first-line invasive aspergillosis with better tolerability [@maertens2021posaphase3]; salvage therapy for mucormycosis |
 | **Isavuconazole** | Non-inferior to voriconazole for invasive mould disease with fewer hepatic, ocular and skin adverse events (SECURE) [@maertens2016secure]; **mucormycosis** (VITAL) [@marty2016vital]; no TDM, no renal-vehicle problem, linear kinetics |
 | **Oteseconazole** | **Recurrent vulvovaginal candidiasis** — 6.7% and 3.9% of treated women had a recurrence through week 48 versus 42.8% and 39.4% on placebo in the VIOLET trials [@sobel2022oteseconazole] |
+
+## Echinocandins
+
+![](figures/echinocandins.png){fig-align="center" width="500"}
+
+::: keypoint
+Echinocandins are semisynthetic lipopeptides: a cyclic hexapeptide core
+of hydroxylated amino acids carrying an N-linked lipid side chain. The
+core is shared across the class, and the side chain differs.
+Caspofungin, micafungin and anidulafungin are each derived from a
+different fungal fermentation product. Their large, polar structure
+explains the lack of oral absorption and the need for intravenous
+dosing.
+:::
 
 ## Echinocandins · mechanism of action
 
