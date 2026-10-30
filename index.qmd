@@ -291,11 +291,12 @@ an MIC.
 
 ![](figures/amphotericin_B_structure.png){fig-align="center"}
 
-::: {}
+::: keypoint
 Amphotericin B is an amphipathic heptaene macrolide: a lactone ring with
 seven conjugated double bonds (lipophilic face) opposite a polyol face
 (hydrophilic), plus a mycosamine sugar. It is zwitterionic and poorly
-water-soluble, hence the deoxycholate or lipid carriers.
+water-soluble, hence the deoxycholate or lipid carriers needed for IV
+infusion.
 :::
 
 ## Polyenes · mechanism of action
@@ -521,6 +522,20 @@ liposomal regimen now offers a toxicity-sparing alternative in exactly
 those settings [@jarvis2022ambition].
 :::
 
+## 5-Flucytosine (5-FC, Flucytosine)
+
+![](figures/5FC.png){fig-align="center"}
+
+<br> <br>
+
+::: keypoint
+Flucytosine (5-fluorocytosine) is a small, water-soluble fluorinated
+pyrimidine analogue of cytosine (molecular weight about 129), with a
+fluorine at C-5 of the pyrimidine ring. It is a prodrug with no
+intrinsic activity: fungal cytosine deaminase converts it to
+5-fluorouracil, an enzyme that mammalian cells largely lack.
+:::
+
 ## Flucytosine · mechanism of action
 
 ![](figures/5FC_mechanism.png){fig-align="center" width="650"}
@@ -673,51 +688,57 @@ weight-based dosing, chiefly because of unrecognised renal impairment
 | **Candida urinary tract infection** | Option for fluconazole-resistant *Candida* cystitis — short courses only, because resistance emerges rapidly |
 | **Chromoblastomycosis, selected rare moulds** | Adjunctive, historical |
 
+<br> <br>
+
 ::: keypoint
-**Access, not evidence, is the limiting factor.** Flucytosine is
-unavailable or unaffordable in much of the region carrying the greatest
-cryptococcal burden — a major contributor to global cryptococcal
-mortality [@denning2024burden; @molloy2018acta].
+Access, not evidence, is the limiting factor. Flucytosine is unavailable
+or unaffordable in much of the region carrying the greatest cryptococcal
+burden — a major contributor to global cryptococcal mortality
+[@denning2024burden; @molloy2018acta].
 :::
+
+## Azoles
+
+::::: columns
+::: {.column width="60%"}
+![](figures/azoles_structure.png){fig-align="center" width="450"}
+:::
+
+::: {.column width="40%"}
+- **Azole ring:** a five-membered N-containing heterocycle linked to the
+  rest of the molecule through a ring nitrogen (N-1).
+- **Imidazoles** (two N; e.g. ketoconazole, miconazole, clotrimazole)
+  are largely topical or limited by toxicity and interactions.
+- **Triazoles** (three N; fluconazole, itraconazole, voriconazole,
+  posaconazole, isavuconazole) are the systemic agents, with greater CYP
+  selectivity for the fungal enzyme.
+- **Tetrazoles** (four N; oteseconazole) replace the triazole with a
+  tetrazole metal-binding group, designed for weaker binding to human
+  CYPs and so greater fungal CYP51 selectivity. It is very long-lived
+  (half-life of months) and approved for recurrent vulvovaginal
+  candidiasis, not systemic infection.
+- **Pharmacophore:** the unsubstituted ring N (N-4 in triazoles, N-3 in
+  imidazoles) binds the haem iron of fungal CYP51 (Erg11).
+- **Side chain:** a halogenated (fluoro/chlorophenyl) group and a
+  lipophilic tail drive potency, spectrum, solubility, and CYP
+  interactions. Short-tailed agents (fluconazole, voriconazole) are
+  smaller and more water-soluble; long-tailed agents (itraconazole,
+  posaconazole) are larger and lipophilic.
+:::
+:::::
 
 ## Azoles · mechanism of action
 
-<br>
+![](figures/azole-antifungals-mechanism.png){fig-align="center"
+width="650"}
 
-::::::: columns
-::: {.column width="55%"}
-- Azoles bind the haem iron of **lanosterol 14α-demethylase
-  (Cyp51/Erg11)**, blocking conversion of lanosterol to ergosterol.
-- Two consequences, not one: **ergosterol depletion** *and*
-  **accumulation of toxic 14α-methylated sterols** that destabilise the
-  membrane.
-- Potency and spectrum across the class track **affinity for the
-  demethylase**; toxicity and interactions track **cross-inhibition of
-  human CYP3A4, CYP2C9 and CYP2C19**.
-- Ring nitrogen count defines the subclass:
-  - **imidazoles** (2 N) — ketoconazole, miconazole, clotrimazole: now
-    topical only
-  - **triazoles** (3 N) — fluconazole, itraconazole, voriconazole,
-    posaconazole, isavuconazole
-  - **tetrazole** (4 N) — oteseconazole: engineered for fungal Cyp51
-    selectivity
-- Azoles have **no antibacterial activity**, unlike the nitroimidazoles.
-:::
-
-::::: {.column width="45%"}
 ::: keypoint
 **Fungistatic against yeasts, fungicidal against moulds.** This
 asymmetry explains why azoles work as step-down and prophylaxis in
 candidiasis, but can be curative monotherapy in aspergillosis.
 :::
 
-::: pearl
-The tetrazole scaffold of **oteseconazole** replaces the triazole
-iron-binding group to gain selectivity for fungal Cyp51 over human CYP
-enzymes — fewer interactions, fewer off-target effects.
-:::
-:::::
-:::::::
+<br>
 
 ## Triazoles · comparative spectrum and MICs {.smaller}
 
