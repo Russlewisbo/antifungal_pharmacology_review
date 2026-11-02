@@ -1060,7 +1060,6 @@ and clearance confirmed in phase 1 studies [@sandison2017rezapk].
 
 <br>
 
-
 - Echinocandins distribute **well into liver, spleen, lung and kidney**,
   where they accumulate and form **tissue reservoirs** from which active
   drug slowly returns to the circulation. Tissue persistence correlates
@@ -1092,7 +1091,6 @@ different statements. Parenchymal kidney infection responds; luminal
 bladder infection does not.
 :::
 
-
 ## Echinocandins · pharmacodynamics
 
 <br>
@@ -1111,6 +1109,7 @@ bladder infection does not.
   anidulafungin failed at approved doses [@hoenigl2024novel].
 
 <br> <br>
+
 ::: caution
 **The paradoxical (Eagle) effect.** Growth resumes at concentrations
 well above the MIC *in vitro* for *C. albicans* and others, mediated by
@@ -1124,7 +1123,6 @@ echinocandin failure.
 ## Echinocandins · resistance
 
 <br>
-
 
 - Resistance is conferred by mutations in **FKS1 and FKS2 hot-spot
   regions** (HS1, HS2), which reduce the sensitivity of glucan synthase
@@ -1203,7 +1201,6 @@ CYP2B6, CYP1A2, CYP2C8, P-gp, OATP, BCRP or OCT/MATE transporters.
 | **Invasive aspergillosis** | **Not monotherapy.** Salvage or combination use only [@patterson2016idsaaspergillosis] |
 | **Oesophageal candidiasis** | Effective, but relapse is higher than with fluconazole; reserve for azole-resistant disease |
 
-
 <br> <br>
 
 ::: keypoint
@@ -1230,7 +1227,11 @@ sanctuary-site penetration [@pappas2016idsacandida].
 | **Polyene toxicity** | Limits duration of induction therapy exactly where it is most needed |
 | **No new target since 2001** | Resistance to each class remains unopposed by a mechanistically distinct partner |
 
-![](figures/fig_spectrum.png){width="78%"
+## Spectrum comparison
+
+<br>
+
+![](figures/fig_spectrum.png){width="98%"
 fig-alt="Matrix of antifungal agents versus pathogens showing reliably active, variable and inactive combinations."}
 
 ## The five agents that changed the picture
@@ -1245,6 +1246,8 @@ fig-alt="Matrix of antifungal agents versus pathogens showing reliably active, v
 | **Olorofim** | Orotomide, fungal DHODH | **Oral** | Phase 3 (OASIS); breakthrough therapy designation |
 | **Opelconazole** | Inhaled triazole (Cyp51) | **Inhaled** | Phase 2/3 |
 
+<br>
+
 ::: keypoint
 Note what these agents have in common: **oral or long-interval
 administration**, **activity against resistant organisms**, and in two
@@ -1257,8 +1260,6 @@ table above [@hoenigl2021pipeline; @hoenigl2024novel; @vuong2026moulds;
 
 <br>
 
-::::::: columns
-::: {.column width="56%"}
 **Mechanism and chemistry**
 
 - Structural analogue of **anidulafungin** sharing its lipid side chain.
@@ -1275,11 +1276,12 @@ table above [@hoenigl2021pipeline; @hoenigl2024novel; @vuong2026moulds;
 - Spectrum essentially identical to the older echinocandins, including
   *C. auris* and azole-resistant *N. glabratus*; no activity against
   *Cryptococcus* or Mucorales.
+
 - At vaginal pH 4, MICs (including *C. parapsilosis*) sit below
   achievable intravaginal concentrations.
-:::
 
-::::: {.column width="44%"}
+  <br> \>br\>
+
 ::: caution
 **A methodological caution with real consequences.** EUCAST and CLSI
 rezafungin MICs diverge notably because rezafungin **binds
@@ -1294,15 +1296,12 @@ wild-type/non-wild-type separation [@hoenigl2024novel].
 frequency conferring reduced susceptibility is low (1.35 × 10^−8^ to
 3.86 × 10^−9^) and \~20 serial passages are needed to select resistance.
 :::
-:::::
-:::::::
 
 ## Rezafungin · pharmacokinetics and pharmacodynamics
 
+<br> **Regimen:** 400 mg IV in week 1, then **200 mg IV once weekly**.
 <br>
 
-::::::: columns
-::: {.column width="52%"}
 | Parameter | Value |
 |------------------------------------|------------------------------------|
 | Half-life | \~**80 h** after the first dose; \~**150 h** after the second or third — linear kinetics |
@@ -1314,10 +1313,6 @@ frequency conferring reduced susceptibility is low (1.35 × 10^−8^ to
 | Dose adjustment | **None** for renal or hepatic impairment |
 | Population PK | Three-compartment model; no covariate (body surface area, albumin, disease state, age, sex, race, creatinine clearance) produced clinically meaningful change — **one regimen for all adults** |
 
-**Regimen:** 400 mg IV in week 1, then **200 mg IV once weekly**.
-:::
-
-::::: {.column width="48%"}
 ::: keypoint
 **PK/PD rationale.** Front-loaded C~max~/MIC with a very long terminal
 phase. Population PK/PD modelling showed rezafungin reached the stasis
@@ -1332,8 +1327,6 @@ concentrations in intra-abdominal abscesses and liver at 48 and 72 h
 than daily micafungin in a murine model. CSF, vitreous and urinary
 penetration remain **low**, as for the class.
 :::
-:::::
-:::::::
 
 ## Rezafungin · clinical evidence
 
@@ -1345,15 +1338,13 @@ penetration remain **low**, as for the class.
 | **ReSTORE** (phase 3, NCT03667690) | Double-blind, double-dummy vs caspofungin; 199 adults with candidaemia and/or invasive candidiasis; non-inferiority margin 20% | **Global cure at day 14: 59.1% vs 60.6%**; **30-day all-cause mortality 23.6% vs 21.2%** — non-inferior on both the EMA and FDA primary endpoints [@thompson2023restore] |
 | **Pooled STRIVE + ReSTORE** | Mycological response at day 14 by species | *C. albicans* 67% vs 67%; ***N. glabratus*** **84% vs 63%** (between-group difference 21.4, 95% CI 1.9–40.8); *C. tropicalis* 74% vs 64%; *C. parapsilosis* 79% vs 70% |
 |  | Subgroup mortality | Favoured rezafungin in patients **≥65 years** (−17.6%, 95% CI −32.5 to −2.8) and **CrCl \<60 mL/min** (−18.2%, −33.1 to −3.2) |
-| **ReSPECT** (phase 3, ongoing) | Rezafungin 400/200 mg weekly vs fluconazole or posaconazole plus co-trimoxazole in allogeneic HSCT | First prospective trial of an echinocandin for **prevention of invasive aspergillosis** in this population; endpoint fungal-free survival at day 90 |
+| **ReSPECT** (phase 3) | Double-blind, 2:1 randomisation; rezafungin 400 mg then 200 mg weekly (n = 402) vs daily fluconazole or posaconazole plus co-trimoxazole after engraftment (n = 200) in allogeneic HSCT recipients | **Fungal-free survival at day 90: 60.7% vs 59.0%** (difference 1.6%, 95% CI −6.2 to 9.3) — met non-inferiority. Proven/probable IFD 3.5% vs 4.5% (*Aspergillus* 2.0% vs 3.0%; *Candida* 1.2% vs 1.0%); death 4.5% vs 5.5%. Adverse events leading to discontinuation 9.3% vs 14.7%; no new safety signals. Press-release data, IDWeek 2026; not yet approved for this indication [@mundipharma2026respect] |
 | **RADIANT** (phase 2) | Topical gel/ointment for vulvovaginal candidiasis | **Inferior to oral fluconazole** — programme discontinued |
 
 ## Rezafungin · safety and place in therapy
 
 <br>
 
-::::::: columns
-::: {.column width="52%"}
 **Safety**
 
 - In ReSTORE, treatment-emergent adverse events occurred in **91%** of
@@ -1369,9 +1360,7 @@ penetration remain **low**, as for the class.
   hepatic reactions.
 - **No clinically significant drug interactions** across CYP and
   transporter probe substrates.
-:::
 
-::::: {.column width="48%"}
 ::: keypoint
 **Where it fits.** Once-weekly IV dosing converts candidaemia from a
 reason to keep a central line and a hospital bed into an
@@ -1388,15 +1377,11 @@ exposure helps against isolates that already carry hot-spot mutations.
 Dose adjustment was not needed for mycological cure in the small number
 of resistant isolates in the trials.
 :::
-:::::
-:::::::
 
 ## Ibrexafungerp · the first oral glucan synthase inhibitor
 
 <br>
 
-:::::: columns
-::: {.column width="55%"}
 **Mechanism**
 
 - First agent of the **triterpenoid** class (formerly SCY-078). Inhibits
@@ -1418,9 +1403,11 @@ of resistant isolates in the trials.
 - EUCAST testing shows a **partial inhibition (trailing) pattern** in
   \~10% of *C. parapsilosis*, \~2% of *C. tropicalis* and \~1% of *C.
   dubliniensis*, which complicates MIC reading.
-:::
 
-:::: {.column width="45%"}
+## Ibrexafungerp pharamcokinetics
+
+<br>
+
 | PK parameter         | Value                                    |
 |----------------------|------------------------------------------|
 | Oral bioavailability | \~**36%**                                |
@@ -1429,23 +1416,23 @@ of resistant isolates in the trials.
 | Half-life            | \~**2 days**                             |
 | Linearity            | Linear, 10–1600 mg single dose           |
 
+<br> <br>
+
 **Tissue:blood AUC ratios** (animal): spleen **54×**, liver **50×**,
 lung **31×**, bone marrow **25×**, kidney **20×**, skin 12–18×,
 **vaginal tissue 9×**, skeletal muscle 4×.
+
+<br> <br>
 
 ::: pearl
 High tissue distribution with **low CSF penetration** — the profile of a
 tissue-directed oral step-down agent, not a CNS drug.
 :::
-::::
-::::::
 
-## Ibrexafungerp · clinical evidence and safety
+## Ibrexafungerp · clinical evidence
 
 <br>
 
-:::::: columns
-::: {.column width="55%"}
 | Trial | Result |
 |------------------------------------|------------------------------------|
 | **VANISH-303** (acute VVC, US) | Clinical cure **50.5% vs 28.6%** placebo (RR 1.70, 95% CI 1.2–2.5); mycological eradication 49.5% vs 19.4% [@sobel2022vanish] |
@@ -1456,9 +1443,9 @@ tissue-directed oral step-down agent, not a CNS drug.
 | **CARES** (*C. auris*) | Open-label single-arm, as add-on or monotherapy |
 | **MARIO** (phase 3) | Oral ibrexafungerp as **step-down after IV echinocandin** for invasive candidiasis |
 | **SCYNERGIA** | Combination with voriconazole in invasive aspergillosis — **terminated for slow enrolment** |
-:::
 
-:::: {.column width="45%"}
+## Ibrexafungerp · Safety
+
 **Safety**
 
 - Predominantly **gastrointestinal**: abdominal pain, nausea, diarrhoea;
@@ -1479,35 +1466,24 @@ perpetrator:
 - Substrate exposure changes: **tacrolimus AUC ×1.4**, dabigatran ×1.4,
   **pravastatin ×2.8**
 
+<br> <br>
+
 ::: keypoint
 **Place in therapy:** approved for VVC and recurrent VVC (300 mg twice
 daily for one day); the real prize is **oral step-down** for invasive
 candidiasis and salvage therapy for echinocandin-resistant *N.
 glabratus* and *C. auris* [@azie2020furi; @ordaya2023novel].
 :::
-::::
-::::::
 
 ## Fosmanogepix · inhibiting GPI-anchor maturation
 
-<br>
+<br> <br>
 
-::::::: columns
-::: {.column width="56%"}
-**Mechanism**
+![](figures/fosmanogepix.png){fig-align="center" width="1000"}
 
-- **Fosmanogepix is a phosphate prodrug**, rapidly and completely
-  cleaved by **systemic alkaline phosphatases** to the active moiety
-  **manogepix (APX001A)**.
-- Manogepix inhibits **Gwt1**, the inositol acyltransferase that
-  acylates inositol during **glycosylphosphatidylinositol (GPI) anchor
-  biosynthesis**.
-- Without mature GPI anchors, mannoproteins cannot be cross-linked to
-  β-1,6-glucan in the wall. The result is loss of adhesion, **failure of
-  biofilm and germ-tube formation**, cell wall unmasking and loss of
-  viability.
-- The target is **fungus-specific** and mechanistically unrelated to
-  every licensed class — no cross-resistance.
+## Fosmanogepix · Spectrum
+
+<br> <br>
 
 **Microbiology**
 
@@ -1519,9 +1495,7 @@ glabratus* and *C. auris* [@azie2020furi; @ordaya2023novel].
   susceptibility and was **excluded** from the candidaemia trials.
 - Mould activity is read as an **MEC**; MECs against endemic dimorphic
   fungi are very low (\<0.008 mg/L).
-:::
 
-::::: {.column width="44%"}
 ::: keypoint
 **Why it matters for privileged sites.** In a rabbit model of
 haematogenous *Candida* meningoencephalitis, manogepix **meninges- and
@@ -1537,15 +1511,11 @@ Gwt1** (*N. glabratus*; V162A in *C. albicans*) and **efflux induction**
 — a *ZCF29* gain-of-function activating *CDR1*/*SNQ2* in *C. albicans*,
 and *MDR1* activation in *C. parapsilosis*.
 :::
-:::::
-:::::::
 
 ## Fosmanogepix · pharmacology and clinical evidence
 
 <br>
 
-:::::: columns
-::: {.column width="48%"}
 **Pharmacology**
 
 - Available **intravenously and orally** — the key practical advantage.
@@ -1562,9 +1532,11 @@ and *MDR1* activation in *C. parapsilosis*.
 
 1000 mg IV twice daily on day 1 → 600 mg IV daily → **600 mg IV or
 700–800 mg orally once daily**.
-:::
 
-:::: {.column width="52%"}
+## Fosmanogepix · Clinical evidence
+
+<br> <br>
+
 | Trial | Result |
 |------------------------------------|------------------------------------|
 | **Candidaemia** (phase 2, NCT03604705) | **16/20 (80%)** met treatment success (clearance of *Candida* without additional antifungal and survival at day 42); blood cultures negative after a mean of **2.4 days**; day-30 survival **85%**; efficacy seen in amphotericin B- and anidulafungin-resistant isolates [@vazquez2023fosmanogepix] |
@@ -1579,25 +1551,16 @@ mould disease is encouraging, but a **33% toxicity-driven
 discontinuation rate** — mainly gastrointestinal — is the signal to
 watch, and dose splitting resolved it in only 3 of 5 patients.
 :::
-::::
-::::::
 
 ## Olorofim · a new target for mould disease
 
 <br>
 
-:::::: columns
-::: {.column width="55%"}
-**Mechanism**
+![](figures/olorofim.png){fig-align="center" width="1000"}
 
-- First member of the **orotomide** class (F901318). Inhibits **fungal
-  dihydroorotate dehydrogenase (DHODH)**, the rate-limiting enzyme of
-  **de novo pyrimidine biosynthesis** [@oliver2016f901318].
-- Fungi depend on *de novo* synthesis; the **human DHODH is not
-  meaningfully inhibited**, which limits on-target toxicity.
-- **Fungicidal against moulds**; the deficit is structural, not
-  incidental — no activity against **yeasts** (*Candida*,
-  *Cryptococcus*) or **Mucorales**.
+## Olorofim · microbiology
+
+<br><br>
 
 **Microbiology**
 
@@ -1608,9 +1571,11 @@ watch, and dose splitting resolved it in only 3 of 5 patients.
   *Microascus*/*Scopulariopsis*, and other rare moulds; variable against
   *Fusarium* [@olorofim2021potency; @jenks2024olorofim].
 - **No *in vitro* cross-resistance** with any licensed class.
-:::
 
-:::: {.column width="45%"}
+## Olorofim · pharmacokinetics
+
+<br> <br>
+
 | PK parameter | Value |
 |------------------------------------|------------------------------------|
 | Formulation | **Oral only** (IV in development) |
@@ -1620,9 +1585,13 @@ watch, and dose splitting resolved it in only 3 of 5 patients.
 | Perpetrator risk | **Weak CYP3A4 inhibitor** — low interaction potential |
 | PD index | AUC/MEC; target **C~min~ ≥0.1–0.2 mg/L** |
 
+<br> <br>
+
 **Dosing as studied:** initially weight-based (180–300 mg loading, then
 120–240 mg/day in divided doses); simplified from patient 59 onward to
 **150 mg twice on day 1, then 90 mg twice daily**.
+
+<br> <br>
 
 ::: pearl
 Population PK modelling showed that **weight-based dosing and routine
@@ -1630,33 +1599,32 @@ TDM could be dropped** without materially changing plasma concentrations
 — C~min~ consistently exceeded the PD target in both the TDM and
 fixed-dose groups.
 :::
-::::
-::::::
 
-## Olorofim · FORMULA-OLS phase 2b {.smaller}
+## Olorofim · FORMULA-OLS phase 2b
 
 <br>
 
-**Design.** Single-arm, open-label, 22 centres in 11 countries. Patients
-≥16 years with proven IFD or probable invasive pulmonary aspergillosis
-and **few or no treatment options**: 203 treated, **202 with
-committee-adjudicated IFD** [@maertens2025formulaols].
+- **Design.** Single-arm, open-label, 22 centres in 11 countries.
+  Patients ≥16 years with proven IFD or probable invasive pulmonary
+  aspergillosis and **few or no treatment options**: 203 treated, **202
+  with committee-adjudicated IFD** [@maertens2025formulaols].
 
-::::: columns
-::: {.column width="50%"}
-**Population** — this is a salvage cohort, not a first-line trial
+- **Population** — this is a salvage cohort, not a first-line trial
 
-- *Aspergillus* spp. 101 (**22 azole-resistant**), *Coccidioides* spp.
-  41, *L. prolificans* 26, *Scedosporium* spp. 22, other 12
-- Reason for enrolment: **failure of available therapy 54%**, resistance
-  to all licensed agents 25%, intolerance 14%
-- 95% had received prior antifungal therapy (median 2 agents); median
-  **75 days** from diagnosis to first dose
-- Sites: lung/sinonasal 62%, **CNS 24%**, bone/joint 17%, disseminated
-  25%
-:::
+  - *Aspergillus* spp. 101 (**22 azole-resistant**), *Coccidioides* spp.
+    41, *L. prolificans* 26, *Scedosporium* spp. 22, other 12
 
-::: {.column width="50%"}
+  - Reason for enrolment: **failure of available therapy 54%**,
+    resistance to all licensed agents 25%, intolerance 14%
+
+  - 95% had received prior antifungal therapy (median 2 agents); median
+    **75 days** from diagnosis to first dose
+
+- **Sites:** lung/sinonasal 62%, **CNS 24%**, bone/joint 17%,
+  disseminated 25%
+
+## Olorofim · FORMULA-OLS phase 2b
+
 **Outcomes**
 
 | Endpoint | Day 42 | Day 84 |
@@ -1669,8 +1637,8 @@ committee-adjudicated IFD** [@maertens2025formulaols].
 By pathogen (global response, day 42): *L. prolificans* **42.3%**,
 *Scedosporium* 36.4%, *Aspergillus* 34.7%, other susceptible moulds
 33.3%, **Coccidioides 0%**.
-:::
-:::::
+
+<br> <br>
 
 ::: keypoint
 **Interpreting a 28.7% global response.** The composite requires
@@ -1680,6 +1648,38 @@ mycological eradication is not achievable at all — yet **75.6%** of
 those 41 patients had a complete or partial **clinical** response.
 All-cause mortality of 11.9% at day 42 in a cohort that had already
 failed everything is the number that matters most.
+:::
+
+## Olorofim · OASIS phase 3
+
+<br>
+
+- **Design.** Randomised (2:1), adjudicator-blinded, olorofim vs
+  liposomal amphotericin B 3 mg/kg then standard of care, up to 84 days.
+  225 adults (151 vs 74) with proven invasive aspergillosis or probable
+  pulmonary disease in whom a mould-active azole was **inappropriate**
+
+  - (resistance, intolerance, interactions, breakthrough or failure);
+    about 79% haematological malignancy or HSCT [@f2g2026oasis].
+
+<br> <br>
+
+| Endpoint (ITT) | Olorofim | L-AmB + SOC | Difference (95% CI) |
+|------------------|------------------|------------------|------------------|
+| **Day-42 all-cause mortality** (primary; non-inferiority margin 20%) | **23.8%** (36/151) | **24.3%** (18/74) | −0.5% (−13.1 to 10.8) |
+| Day-84 all-cause mortality | 32.5% (49/151) | 29.7% (22/74) | 2.7% (−10.6 to 15.0) |
+| Global response, day 42 / day 84 | 26.5% / 30.5% | 31.1% / 28.4% | not reported |
+| ≥1 drug-related adverse event | 35.8% | 63.9% | — |
+| Renal adverse events | 1.3% | 22.2% | — |
+
+<br> <br>
+
+::: keypoint
+**Non-inferior on mortality, with less renal toxicity.** Oral olorofim
+met the primary endpoint, with fewer drug-related and renal adverse
+events; liver injury was similar (4.6% vs 4.2%). These are
+**press-release data**, with no efficacy advantage shown; the drug
+remains investigational.
 :::
 
 ## Olorofim · safety, interactions and place in therapy
