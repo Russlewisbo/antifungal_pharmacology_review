@@ -3,6 +3,7 @@ project:
   output-dir: _output
   render:
     - index.qmd
+  post-render: split_references_pptx.py
 
 bibliography: references.bib
 csl: vancouver.csl

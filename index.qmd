@@ -21,6 +21,9 @@ format:
     embed-resources: true
   pptx:
     slide-level: 2
+    reference-doc: custom-reference.pptx
+    filters:
+      - pptx-split.lua
 lightbox: true
 bibliography: references.bib
 csl: diagnostic-microbiology-and-infectious-disease-author-year.csl
