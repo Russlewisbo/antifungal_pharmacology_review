@@ -19,6 +19,8 @@ format:
       width: wide
     fig-align: center
     embed-resources: true
+  pptx:
+    slide-level: 2
 lightbox: true
 bibliography: references.bib
 csl: diagnostic-microbiology-and-infectious-disease-author-year.csl
@@ -92,7 +94,7 @@ width="1000"}
 <br>
 
 | Priority | Pathogens | Why they are listed |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Critical** | *Cryptococcus neoformans*, *Candida auris*, *Aspergillus fumigatus*, *Candida albicans* | High mortality, rising resistance, diagnostic gaps, inadequate treatment options |
 | **High** | *Nakaseomyces glabratus* (*C. glabrata*), *Histoplasma* spp., eumycetoma agents, Mucorales, *Fusarium* spp., *Candida tropicalis*, *Candida parapsilosis* | Resistance, limited access to therapy, high burden in specific regions |
 | **Medium** | *Scedosporium* spp., *Lomentospora prolificans*, *Coccidioides* spp., *Pichia kudriavzevii* (*C. krusei*), *Cryptococcus gattii*, *Talaromyces marneffei*, *Pneumocystis jirovecii*, *Paracoccidioides* spp. | Intrinsic multiresistance or geographically concentrated burden |
@@ -142,6 +144,7 @@ width="450"}
 
 <br>
 
+::: {.content-visible when-format="revealjs"}
 ```{=html}
 <div class="tl">
 <div class="tl-plot" style="height:486px">
@@ -223,6 +226,11 @@ width="450"}
 <span class="tl-axisinv" style="left:96.65%">pipeline</span>
 </div></div>
 ```
+:::
+
+::: {.content-visible when-format="pptx"}
+![](figures/fig_timeline_approvals.png){fig-alt="Timeline of first US approval for systemic antifungal agents, 1959 to 2023, colour-coded by class."}
+:::
 
 ::: source
 Year of first US approval. Ibrexafungerp (2021), oteseconazole (2022)
@@ -235,7 +243,7 @@ opelconazole are in phase 2/3 [@hoenigl2021pipeline; @hoenigl2024novel].
 <br>
 
 | Target | Molecular site | Agents | Effect on the cell |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Ergosterol itself** | Membrane ergosterol — extraction into an extramembranous "sterol sponge" | Amphotericin B (deoxycholate, ABLC, liposomal) | Sterol depletion, permeability loss, oxidative injury; **fungicidal** [@gray2012ampbsterol; @anderson2014spongeamb] |
 | **Ergosterol synthesis** | Lanosterol 14α-demethylase (Erg11 / Cyp51A) | Triazoles, tetrazole (oteseconazole), inhaled opelconazole | Ergosterol depletion plus accumulation of toxic 14α-methyl sterols; **fungistatic** vs yeasts, fungicidal vs moulds |
 | **Cell wall β-1,3-glucan** | β-1,3-D-glucan synthase (Fks1 / Fks2) | Echinocandins, rezafungin; triterpenoid ibrexafungerp at a distinct site | Loss of wall integrity and lysis; **fungicidal** vs *Candida*, fungistatic vs *Aspergillus* |
@@ -254,7 +262,7 @@ Fungi are eukaryotes: every one of these targets exists because it is
 <br>
 
 | Class | PK/PD index | Driver of effect | Implication for dosing |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | Polyenes | **C~max~/MIC, AUC/MIC** | Concentration-dependent killing, long post-antifungal effect | Large intermittent doses; single 10 mg/kg liposomal dose is rational |
 | Triazoles | **AUC~0–24~/MIC** | Exposure-dependent, saturable | Total daily exposure matters, not peak; loading doses needed |
 | Echinocandins | **C~max~/MIC, AUC/MIC,** <br> (MEC for moulds) | Concentration-dependent with prolonged persistence in tissue | Front-loading works; weekly rezafungin exploits this |
@@ -334,7 +342,7 @@ conventional deoxycholate formulation.
 <br>
 
 | Organism | Typical MIC~90~ (mg/L) | Comment |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | *C. albicans*, *C. tropicalis*, *C. parapsilosis* | 0.25–1 | Wild-type; EUCAST/CLSI susceptible ≤1 |
 | *N. glabratus* (*C. glabrata*) | 0.5–1 | Reliably active; MICs slightly higher than *C. albicans* |
 | *C. auris* | 1–\>2 | **Amphotericin B resistance in \~30–40% of isolates** |
@@ -362,7 +370,7 @@ sterols, sphingolipid modulation).
 <br>
 
 | Parameter | Amphotericin B deoxycholate | Liposomal amphotericin B |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Absorption** | Not orally bioavailable; IV only | IV only (oral encochleated formulation investigational) |
 | **Protein binding** | \>95%, principally to β-lipoprotein | High; drug remains liposome-associated in circulation |
 | **C~max~** | 0.5–2.0 mg/L at conventional doses, falling to a 0.2–0.5 mg/L plateau | Markedly higher C~max~ and AUC at equal mg/kg — up to \~10-fold [@groll2019lamb] |
@@ -385,12 +393,19 @@ Formulation pharmacokinetics compiled from refs [@bellmann2017ampk;
 ::: callout-note
 **The cryptococcal paradox.** Amphotericin B achieves minimal CSF
 concentrations yet produces the fastest rate of CSF sterilisation of any
-agent. Explanations include cidal activity against organisms in the
-subarachnoid space at low concentrations, high meningeal and
-choroid-plexus tissue binding, and the long tissue residence of drug. In
-animal models, liposomal amphotericin B has superior CNS penetration vs.
-conventional AMB. The practical lesson: **plasma or CSF concentration is
-a poor surrogate for polyene effect.**
+agent. Explanations include cidal activity at low concentrations and the
+long tissue residence of drug. CSF and brain-to-plasma ratios in rabbits
+are similarly low (≤0.3) for deoxycholate, lipid-complex and liposomal
+formulations, and inflammation does not appear to raise them, so
+formulation does not rescue CNS exposure [@felton2014tissue].
+Whole-tissue homogenates also overestimate the biologically available
+drug (lipid-bound versus free drug), and cryptococcal disease is
+multifocal. The practical lesson: **plasma or CSF concentration is a
+poor surrogate for polyene effect.**
+
+Outside the CNS, polyenes reach **high** concentrations in liver,
+spleen, kidney and bone marrow, and are low in bronchial secretions and
+skeletal muscle [@felton2014tissue].
 :::
 
 ## Polyenes · pharmacodynamics
@@ -504,7 +519,7 @@ of renal function, potassium and magnesium.
 <br>
 
 | Indication | Role |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Mucormycosis** | First-line therapy, liposomal formulation, high dose [@cornely2019mucormycosis] |
 | **Cryptococcal meningitis** | Induction backbone with flucytosine; single-dose 10 mg/kg L-AmB regimen in resource-limited settings [@jarvis2022ambition; @molloy2018acta] |
 | **Invasive candidiasis** | Alternative to echinocandins; preferred where CNS, ocular or urinary involvement is suspected [@pappas2016idsacandida] |
@@ -557,7 +572,7 @@ intrinsic activity: fungal cytosine deaminase converts it to
 <br>
 
 | Organism | Typical MIC~90~ (mg/L) | Clinical relevance |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | *C. albicans* | 0.12–0.5 | Highly susceptible; wild-type |
 | *N. glabratus* (*C. glabrata*) | 0.12–0.5 | Susceptible |
 | *C. tropicalis*, *C. parapsilosis* | 0.12–1 | Susceptible |
@@ -580,7 +595,7 @@ sterilisation of the CSF.
 <br>
 
 | Parameter | Value |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Oral bioavailability** | Excellent: **78–89%** absorbed in healthy volunteers; peak **30–40 mg/L within 2 h** of a 2 g dose |
 | **Effect of food / antacids** | Absorption **delayed** (not reduced) by food or aluminium hydroxide |
 | **Bioavailability in disease** | Falls to **40–76%** in renal failure and \~**45%** in late-stage HIV infection |
@@ -613,9 +628,11 @@ be measured.
 **Penetration — the best of any antifungal**
 
 - **CSF: 60–90% of the simultaneous serum concentration.**
-- Peritoneal fluid: 5% to nearly 50% of serum, increasing with
-  inflammation.
-- Also penetrates bronchial secretions and articular fluid well.
+- Peritoneal fluid: \~65–100% of serum in limited human data
+  [@felton2014tissue].
+- Also penetrates aqueous and vitreous (\~40–100% of serum), bronchial
+  secretions (\~75% in dogs) and synovial fluid (\~40–80%)
+  [@felton2014tissue].
 - **Urine: up to 95% of the dose appears as active drug** — Effective
   for *Candida* cystitis and renal parenchymal disease.
 :::
@@ -661,7 +678,7 @@ entirely by **toxicity and resistance**, not by exposure.
 **TDM is mandatory, not optional**
 
 |   | Target |
-|------------------------------------|------------------------------------|
+|----|----|
 | Peak (2 h post-dose) | **30–80 mg/L** |
 | Concentration to avoid | **\>100 mg/L** — strongly associated with marrow and hepatic toxicity |
 | Sampling | At steady state (\~day 3–4) and after every dose change or change in renal function |
@@ -680,7 +697,7 @@ weight-based dosing, chiefly because of unrecognised renal impairment
 <br>
 
 | Indication | Regimen and evidence |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Cryptococcal meningitis — induction** | With amphotericin B. In the ACTA trial, **one week** of amphotericin B deoxycholate plus flucytosine was as effective as two weeks and less toxic; oral fluconazole plus flucytosine was an effective all-oral alternative where amphotericin B is unavailable [@molloy2018acta] |
 |  | Adding flucytosine to amphotericin B improves the rate of CSF sterilisation and survival compared with amphotericin B alone [@day2013combination] |
 |  | Now also the partner for **single-dose 10 mg/kg liposomal amphotericin B** [@jarvis2022ambition] |
@@ -751,7 +768,7 @@ enzymes — fewer interactions, fewer off-target effects.
 <br>
 
 | Organism | Fluconazole | Itraconazole | Voriconazole | Posaconazole | Isavuconazole |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | *C. albicans* (MIC~90~, mg/L) | 0.25–1 | 0.06–0.25 | 0.015–0.06 | 0.03–0.06 | 0.015–0.06 |
 | *N. glabratus* (*C. glabrata*) | 8–32 | 0.5–2 | 0.25–1 | 0.5–2 | 0.5–2 |
 | *C. parapsilosis* | 0.5–2 | 0.12–0.5 | 0.03–0.12 | 0.06–0.25 | 0.03–0.12 |
@@ -829,7 +846,7 @@ sequence); *L. prolificans* is resistant to every licensed agent.
 
 ::: smaller-table
 | Parameter | Fluconazole | Itraconazole | Voriconazole | Posaconazole (DR tablet / IV) | Isavuconazole |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | **Oral bioavailability** | \>90%; \>90% of an oral dose appears in the circulation | Erratic; capsules need acid **and** food; solution better fasting; SUBA formulation improves it | \~96% | Suspension low and saturable; **delayed-release tablet high and reliable** | \~98% |
 | **Food / gastric pH** | **No effect** | Major effect | Reduced by food; take 1 h apart from meals | Suspension needs food and acid; **tablet and IV unaffected** | No effect |
 | **Protein binding** | \~**10%** | 99.8% | \~58% | \>98% | \>99% |
@@ -851,12 +868,12 @@ per the primary chapter source.
 <br>
 
 | Site | Fluconazole | Voriconazole | Posaconazole | Isavuconazole | Itraconazole |
-|------------|------------|------------|------------|------------|------------|
-| **CSF** | **50–70% of serum** | \~50% of plasma; good brain parenchymal concentrations | Low in CSF, better in brain tissue | Low in CSF, measurable brain tissue | Negligible |
-| **Vitreous / aqueous** | Good | Good — agent of choice for fungal endophthalmitis with susceptible organisms | Low | Low | Negligible |
+|----|----|----|----|----|----|
+| **CSF** | **50–100% of plasma** (brain tissue 0.7–2.4×) | 22–100% of plasma; brain tissue similar to or above plasma | Very low in CSF (\<1%); brain tissue better, higher with meningeal inflammation | Very low in CSF (CSF/plasma \~0.01–0.04 in volunteers and rabbits [@isavu2024sites; @isavu2019rabbit]); brain tissue 0.4–1.8× plasma in rabbits, rats and one human abscess [@isavu2019rabbit; @isavu2019brain] | Very low (CSF/plasma \<0.002–0.12) |
+| **Vitreous / aqueous** | Good (\~40–100% of serum) | Good (\~40–100% of serum) — agent of choice for fungal endophthalmitis with susceptible organisms | Limited data; aqueous 0.6 and vitreous 0.2 of plasma in one inflamed eye | No published data found | Negligible in uninflamed eyes |
 | **Urine (active drug)** | **High — 80% unchanged**; the only triazole reliably active in urine | \<2% unchanged | Minimal | Minimal | Minimal |
-| **Epithelial lining fluid / lung** | Good | High | Good; high alveolar macrophage concentrations | Good | Moderate |
-| **Saliva / mucosa** | Excellent | Good | Good | Good | Moderate |
+| **Epithelial lining fluid / lung** | Good | High | Good; high alveolar macrophage concentrations | Moderate in healthy volunteers; ELF below serum in lung-transplant patients [@isavu2024sites; @isavu2023lung] | Moderate |
+| **Saliva / mucosa** | Excellent (≈ plasma) | Good (25% of plasma on day 1, 88% at steady state) | No published concentration data; clinically effective | No data found | Variable, generally below plasma; esophageal tissue \~3× plasma |
 
 <br> <br>
 
@@ -886,7 +903,7 @@ penetration but low CSF concentrations.
 
 ::: {.column width="52%"}
 | Agent | Trough target | When to measure |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Fluconazole** | Not routinely defined | High-dose coccidioidomycosis, renal dysfunction or augmented clearance, CVVHD, morbid obesity |
 | **Itraconazole** | **\>0.5–1 mg/L** (itraconazole; some add hydroxy-metabolite) | All patients — absorption is erratic |
 | **Voriconazole** | **1–5.5 mg/L**: \>1–2 for efficacy, **\<5.5 to avoid neurotoxicity** | All patients, day 4–7, after any dose change |
@@ -930,7 +947,7 @@ posaconazole **suspension** (not the tablet).
 **Clinically critical substrate interactions**
 
 | Substrate | Consequence |
-|------------------------------------|------------------------------------|
+|----|----|
 | Tacrolimus, cyclosporin, sirolimus | Large exposure increases; pre-emptive dose reduction and TDM. Voriconazole's effect on tacrolimus is **greater with oral than IV** administration |
 | Venetoclax, ibrutinib, midostaurin, ruxolitinib, glasdegib | Major exposure increases; dose reduction per label and/or careful monitoring |
 | Vinca alkaloids | Neurotoxicity — **avoid** |
@@ -950,7 +967,7 @@ effect — and is contraindicated in familial short QT syndrome.
 <br>
 
 | Agent | Characteristic toxicities |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Fluconazole** | Generally benign: headache, alopecia, xerosis, cheilitis — all reversible. Hepatotoxicity and QTc prolongation possible with any triazole. Neurotoxicity reported at very high doses (2000 mg/day). **Teratogen — FDA category D**; high-dose first-trimester exposure linked to skeletal and cardiac defects |
 | **Itraconazole** | Negative inotropy — **contraindicated in heart failure**; oedema, hypertension, hypokalaemia; GI intolerance with the oral solution |
 | **Voriconazole** | **Transient visual disturbance** (\~30%; reversible dysfunction of retinal ON-bipolar cells); hepatotoxicity; **encephalopathy and hallucinations** (concentration-dependent); **phototoxicity progressing to cutaneous squamous cell carcinoma** with chronic use; **fluoride excess and periostitis**; alopecia and nail changes |
@@ -972,7 +989,7 @@ posaconazole and isavuconazole.
 <br>
 
 | Agent | Established role |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Fluconazole** | Invasive candidiasis (susceptible isolates) and step-down; *Candida* UTI; cryptococcal consolidation (400–800 mg/day ≥8 weeks) and maintenance (200–400 mg/day); coccidioidomycosis; neonatal prophylaxis (3–6 mg/kg twice weekly in infants \<1000 g) |
 | **Itraconazole** | **Agent of choice for blastomycosis, histoplasmosis, paracoccidioidomycosis** and non-meningeal coccidioidomycosis; ABPA; onychomycosis |
 | **Voriconazole** | First-line invasive aspergillosis — superior to amphotericin B deoxycholate in the pivotal trial [@herbrecht2002voriconazole]; *Scedosporium apiospermum*; *Candida* endophthalmitis |
@@ -1010,7 +1027,7 @@ pharmacodynamic readout.
 <br>
 
 | Organism | Typical MIC~90~ / MEC~90~ (mg/L) | Comment |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | *C. albicans* | 0.015–0.06 | Fungicidal; wild-type |
 | *N. glabratus* (*C. glabrata*) | 0.03–0.12 | **First-line despite azole resistance**; FKS resistance up to \~10% at high-risk centres |
 | *C. tropicalis* | 0.03–0.12 | Susceptible |
@@ -1037,7 +1054,7 @@ candidiasis.
 
 ::: smaller-table
 | Parameter | Caspofungin | Anidulafungin | Micafungin | Rezafungin |
-|---------------|---------------|---------------|---------------|---------------|
+|----|----|----|----|----|
 | **Oral bioavailability** | \<10% | 2–7% | \<10% | \<10% |
 | **Route** | IV once daily | IV once daily | IV once daily | **IV once weekly** |
 | **Half-life (h)** | 9–11 | 24–26 | 11–17 | **\>130** |
@@ -1045,8 +1062,8 @@ candidiasis.
 | **C~max~ (mg/L), single dose** | 7.64 | 2.07–3.5 | 4.95 | 19.2 |
 | **Steady-state AUC~0–24~ (mg·h/L)** | 87.9–114.8 | 42.3–53 | 111.3 | 827 |
 | **Metabolism** | Slow peptide hydrolysis and N-acetylation; spontaneous degradation | **Not metabolised** — slow chemical degradation in plasma | Catechol-*O*-methyltransferase pathway | **Minimal** — most circulating and excreted drug is unchanged rezafungin |
-| **Elimination** | 35% faeces, 41% urine | Primarily faeces, 1% urine | 40% faeces, \<15% urine | 75% faeces, 25% urine |
-| **Plasma clearance (mL/min)** | 10–12.5 | 16.67 | 10.5 | **3.1** |
+| **Elimination** | 35% faeces, 41% urine | Primarily faeces, 1% urine | 40% faeces, \<15% urine | 74% faeces, 26% urine (mostly inactive metabolites; \<1% unchanged in urine) |
+| **Plasma clearance (mL/min)** | 10–12.5 | 16.67 | 10.5 | **3.1–5.8** (healthy volunteers; patients) |
 | **Renal dose adjustment** | None | None | None | None |
 | **Hepatic adjustment** | **Reduce to 35 mg/day for Child–Pugh 7–9** | None | None for Child–Pugh 7–9 | None |
 :::
@@ -1060,14 +1077,17 @@ and clearance confirmed in phase 1 studies [@sandison2017rezapk].
 
 <br>
 
-- Echinocandins distribute **well into liver, spleen, lung and kidney**,
-  where they accumulate and form **tissue reservoirs** from which active
-  drug slowly returns to the circulation. Tissue persistence correlates
-  with continued antifungal activity after plasma concentrations fall
-  below the MIC.
-- **High molecular weight and ≥96% protein binding block entry into
-  urine, CSF, brain, prostate and (largely) ocular fluid** —
-  anidulafungin CSF penetration is **\<0.1%**.
+- Echinocandins distribute **well into liver, spleen, lung and kidney**
+  in animals (strongest for anidulafungin and caspofungin; micafungin
+  liver exposure is closer to plasma), where they accumulate and form
+  **tissue reservoirs** from which active drug slowly returns to the
+  circulation. Tissue persistence correlates with continued antifungal
+  activity after plasma concentrations fall below the MIC.
+- **High molecular weight and ≥96% protein binding limit entry into
+  urine, CSF, brain, prostate and ocular fluid.** Brain concentrations
+  are \~10% of plasma C~max~ for anidulafungin (rabbit) and caspofungin
+  (rodent); human CSF data are sparse (caspofungin undetectable in one
+  patient; micafungin CSF/plasma 0.002–0.54) [@felton2014tissue].
 - Despite low urinary concentrations, echinocandins have sterilised
   azole-resistant candiduria in case reports and work in experimental
   renal candidiasis — because they accumulate in **renal parenchyma**
@@ -1176,7 +1196,7 @@ will **select** or **suppress** resistance is a genuine open question.
 **Drug interactions — minimal and agent-specific**
 
 | Interacting drug | Effect |
-|------------------------------------|------------------------------------|
+|----|----|
 | Tacrolimus | Caspofungin reduces tacrolimus AUC and peak by \~20%; no effect with anidulafungin, micafungin or rezafungin |
 | Ciclosporin | **Caspofungin AUC increases \~35%**; anidulafungin AUC increases 22%; ciclosporin clearance falls 16% with micafungin; no effect with rezafungin |
 | Sirolimus | Sirolimus AUC increases 21% with micafungin |
@@ -1194,7 +1214,7 @@ CYP2B6, CYP1A2, CYP2C8, P-gp, OATP, BCRP or OCT/MATE transporters.
 <br>
 
 | Indication | Evidence |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Candidaemia and invasive candidiasis — first line** | Caspofungin non-inferior (and better tolerated) than amphotericin B deoxycholate [@moraduarte2002caspo]; anidulafungin non-inferior to fluconazole [@reboli2007anidula]; micafungin non-inferior to liposomal amphotericin B [@kuse2007mica] and equivalent to caspofungin [@pappas2007mica] |
 | **Empirical therapy in neutropenic fever** | Caspofungin and micafungin are established options |
 | **Prophylaxis** | Micafungin in HSCT; echinocandins where azole interactions are prohibitive |
@@ -1218,7 +1238,7 @@ sanctuary-site penetration [@pappas2016idsacandida].
 <br>
 
 | Gap | Clinical consequence |
-|------------------------------------|------------------------------------|
+|----|----|
 | **No oral agent active against azole-resistant moulds** | Prolonged IV therapy, or no therapy at all, for TR~34~/L98H *A. fumigatus* |
 | **No agent active against *L. prolificans*** | Near-uniform resistance to every licensed drug; mortality \>70% |
 | **Echinocandins cannot reach CNS, eye or urine** | Class cannot be used for the sanctuary-site syndromes it would otherwise suit |
@@ -1239,7 +1259,7 @@ fig-align="center" width="98%"}
 <br>
 
 | Agent | Class / target | Route | Status |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Rezafungin** | Echinocandin, Fks1/2 — long-acting | IV weekly | **Approved** (EU/UK invasive candidiasis; US for limited/no alternatives) |
 | **Ibrexafungerp** | Triterpenoid, glucan synthase at a distinct site | **Oral** | **Approved** for VVC/rVVC; phase 3 for invasive disease |
 | **Fosmanogepix** | Gwt1 inhibitor (GPI-anchor maturation) | IV **and oral** | Phase 3 |
@@ -1303,7 +1323,7 @@ frequency conferring reduced susceptibility is low (1.35 × 10^−8^ to
 <br>
 
 | Parameter | Value |
-|------------------------------------|------------------------------------|
+|----|----|
 | Half-life | \~**80 h** after the first dose; \~**150 h** after the second or third — linear kinetics |
 | C~max~ (single dose) | 19.2 mg/L |
 | Steady-state AUC~0–24~ | 827 mg·h/L |
@@ -1333,7 +1353,7 @@ penetration remain **low**, as for the class.
 <br>
 
 | Trial | Design | Result |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **STRIVE** (phase 2) | Rezafungin 400 mg weekly, or 400 mg then 200 mg weekly, vs caspofungin | Day-14 overall cure 60.5% / 76.1% / 67.2%. The **400/200 mg** regimen gave the highest cure and lowest 30-day mortality; candidaemia cleared more rapidly |
 | **ReSTORE** (phase 3, NCT03667690) | Double-blind, double-dummy vs caspofungin; 199 adults with candidaemia and/or invasive candidiasis; non-inferiority margin 20% | **Global cure at day 14: 59.1% vs 60.6%**; **30-day all-cause mortality 23.6% vs 21.2%** — non-inferior on both the EMA and FDA primary endpoints [@thompson2023restore] |
 | **Pooled STRIVE + ReSTORE** | Mycological response at day 14 by species | *C. albicans* 67% vs 67%; ***N. glabratus*** **84% vs 63%** (between-group difference 21.4, 95% CI 1.9–40.8); *C. tropicalis* 74% vs 64%; *C. parapsilosis* 79% vs 70% |
@@ -1406,7 +1426,7 @@ of resistant isolates in the trials.
   \~10% of *C. parapsilosis*, \~2% of *C. tropicalis* and \~1% of *C.
   dubliniensis*, which complicates MIC reading.
 
-## Ibrexafungerp pharamcokinetics
+## Ibrexafungerp pharmacokinetics
 
 <br>
 
@@ -1415,7 +1435,7 @@ of resistant isolates in the trials.
 | Oral bioavailability | \~**36%**                                |
 | Food effect          | **AUC increased \~40%** — give with food |
 | Protein binding      | **99.7%**                                |
-| Half-life            | \~**2 days**                             |
+| Half-life            | \~**20 h** (reported range 20–30 h)      |
 | Linearity            | Linear, 10–1600 mg single dose           |
 
 <br> <br>
@@ -1436,7 +1456,7 @@ tissue-directed oral step-down agent, not a CNS drug.
 <br>
 
 | Trial | Result |
-|------------------------------------|------------------------------------|
+|----|----|
 | **VANISH-303** (acute VVC, US) | Clinical cure **50.5% vs 28.6%** placebo (RR 1.70, 95% CI 1.2–2.5); mycological eradication 49.5% vs 19.4% [@sobel2022vanish] |
 | **VANISH-306** (US/Bulgaria) | Clinical cure RR **1.35** (95% CI 1.06–1.73); superior on all secondary endpoints |
 | **DOVE** (dose-finding) | **300 mg twice for one day** selected — higher doses added GI toxicity without efficacy |
@@ -1500,9 +1520,11 @@ glabratus* and *C. auris* [@azie2020furi; @ordaya2023novel].
 
 ::: keypoint
 **Why it matters for privileged sites.** In a rabbit model of
-haematogenous *Candida* meningoencephalitis, manogepix **meninges- and
-brain-tissue to plasma ratios were approximately 1:1**, with a
-significant fall in *C. albicans* tissue burden. Radiolabelled drug
+haematogenous *Candida* meningoencephalitis, manogepix **meninges-,
+cerebrum- and spinal cord-to-plasma ratios were approximately 1:1**,
+with a significant fall in *C. albicans* tissue burden. Ocular
+penetration was lower: liquid-to-plasma ratios were 0.19–0.52 (aqueous),
+0.09–0.12 (vitreous) and 0.02–0.04 (choroid). Radiolabelled drug
 distributed widely in rats and monkeys — including **lung, brain, eye
 and uveal tract** [@fosmanogepix2021eye].
 :::
@@ -1540,7 +1562,7 @@ and *MDR1* activation in *C. parapsilosis*.
 <br> <br>
 
 | Trial | Result |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Candidaemia** (phase 2, NCT03604705) | **16/20 (80%)** met treatment success (clearance of *Candida* without additional antifungal and survival at day 42); blood cultures negative after a mean of **2.4 days**; day-30 survival **85%**; efficacy seen in amphotericin B- and anidulafungin-resistant isolates [@vazquez2023fosmanogepix] |
 | **APEX** — *C. auris* candidaemia (NCT04148287) | **8/9 (89%)** cleared *C. auris* from blood |
 | **AEGIS** — invasive mould disease (phase 2) | 20 patients: **40% successful response**; all-cause mortality at day 42 **25%** (80% CI 12.7–41.5), meeting the predefined target of \<45%. Discontinued for toxicity in **7 (33%)**, usually nausea and anorexia |
@@ -1579,7 +1601,7 @@ watch, and dose splitting resolved it in only 3 of 5 patients.
 <br> <br>
 
 | PK parameter | Value |
-|------------------------------------|------------------------------------|
+|----|----|
 | Formulation | **Oral only** (IV in development) |
 | Oral bioavailability | \~**45%** |
 | Solubility / binding | Poorly water-soluble; **highly protein bound** |
@@ -1630,7 +1652,7 @@ fixed-dose groups.
 **Outcomes**
 
 | Endpoint | Day 42 | Day 84 |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Global response success | **28.7%** (95% CI 22.6–35.5) | 27.2% (21.2–33.9) |
 | Success with stable disease counted as success | **75.2%** (68.7–81.0) | 63.4% (56.3–70.0) |
 | Clinical response | 59.9% (52.8–66.7) | 54.0% (46.8–61.0) |
@@ -1667,7 +1689,7 @@ failed everything is the number that matters most.
 <br> <br>
 
 | Endpoint (ITT) | Olorofim | L-AmB + SOC | Difference (95% CI) |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Day-42 all-cause mortality** (primary; non-inferiority margin 20%) | **23.8%** (36/151) | **24.3%** (18/74) | −0.5% (−13.1 to 10.8) |
 | Day-84 all-cause mortality | 32.5% (49/151) | 29.7% (22/74) | 2.7% (−10.6 to 15.0) |
 | Global response, day 42 / day 84 | 26.5% / 30.5% | 31.1% / 28.4% | not reported |
@@ -1789,7 +1811,7 @@ care.
 ## Other agents worth knowing {.smaller}
 
 | Agent | Target / class | Status and distinguishing feature |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Oral encochleated amphotericin B (MAT2203)** | Amphotericin B in a nanocochleate of lipid bilayers and calcium ions | Protects the drug through the gut and delivers it intracellularly to macrophages. **C~max~ 59.2 ng/mL** — an order of magnitude below liposomal amphotericin B (22,900 ng/mL) and deoxycholate (1400 ng/mL) — yet effective in murine cryptococcal meningoencephalitis with fluorescent particles reaching the brain [@enact2019mbio; @encochleated2020review]. **EnACT** phase 2 in 80 Ugandan adults with HIV-associated cryptococcal meningitis. Topical/VVC programme was inferior to fluconazole |
 | **ATI-2307** | Aromatic diamidine; dissipates the fungal mitochondrial membrane potential (pentamidine-like) | Active against *Candida* and *Cryptococcus*, variable against *Aspergillus*; improved survival in neutropenic *A. fumigatus* mice |
 | **VL-2397 / ASP2397** | **Siderophore** resembling ferrichrome (aluminium rather than iron chelate), taken up by the **Sit1 transporter**, which humans lack | First-in-class fungal-specific uptake; active against *Aspergillus*, *Fusarium solani* and *N. glabratus*; phase 1 completed with infusion-site reactions the main adverse event |
@@ -1812,7 +1834,7 @@ mitochondrial potential, phospholipids).
 
 ::: smaller-table
 |   | Polyenes | Flucytosine | Triazoles | Echinocandins | Triterpenoid | Gwt1 inhibitor | Orotomide |
-|---------|---------|---------|---------|---------|---------|---------|---------|
+|----|----|----|----|----|----|----|----|
 | **Target** | Ergosterol | Pyrimidine salvage | Cyp51/Erg11 | Fks1/2 glucan synthase | Glucan synthase (distinct site) | Gwt1 / GPI anchor | Fungal DHODH |
 | **Effect** | Fungicidal (yeast + mould) | Fungistatic | Static vs yeast, cidal vs mould | Cidal vs yeast, static vs mould | Cidal vs yeast | Cidal/static, broad | Cidal vs mould |
 | **Route** | IV | Oral, IV | Oral, IV | IV | **Oral** | **IV + oral** | **Oral** |
@@ -1832,7 +1854,7 @@ mitochondrial potential, phospholipids).
 
 ::: smaller-table
 | Agent | Oral F | Protein binding | t~½~ | Primary elimination | Renal adjust | Hepatic adjust |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|----|----|----|----|----|----|----|
 | Amphotericin B deoxycholate | — | \>95% | \~24 h (β \~15 d) | Degraded *in situ* | **No** | No |
 | Liposomal amphotericin B | — | High | Prolonged | Reticuloendothelial uptake | **No** | No |
 | Flucytosine | 78–89% | **\<4%** | 3–6 h | **Renal, unchanged (95%)** | **Yes — critical** | No |
@@ -1845,7 +1867,7 @@ mitochondrial potential, phospholipids).
 | Anidulafungin | 2–7% | 84–99% | 24–26 h | **Chemical degradation in plasma** | No | No |
 | Micafungin | \<10% | ≥99% | 11–17 h | COMT pathway | No | No |
 | **Rezafungin** | \<10% | 97% | **\>130 h** | Faecal, unchanged | No | No |
-| **Ibrexafungerp** | \~36% (food ↑40%) | 99.7% | \~2 d | CYP3A4 | No | Caution |
+| **Ibrexafungerp** | \~36% (food ↑40%) | \>99% | \~20 h | CYP3A4 | No | Caution |
 | **Fosmanogepix** | High (IV + oral) | — | — | — | No | — |
 | **Olorofim** | \~45% | High | — | Multiple CYPs incl. 3A4 | — | Caution (hepatic AEs) |
 | **Opelconazole** | \<0.7% swallowed | — | Lung-retained | Local | No | No |
@@ -1854,7 +1876,16 @@ mitochondrial potential, phospholipids).
 ## Reaching the infection: privileged sites
 
 ![](figures/fig_penetration.png){fig-alt="Matrix of antifungal agents versus anatomical sites showing negligible, low, moderate and high penetration."
-fig-align="center" width="70%"}
+fig-align="center" width="58%"}
+
+::: source
+Licensed agents scored against the tissue- and fluid-to-plasma ratios in
+Felton et al. [@felton2014tissue]; † not covered by that review
+(manogepix brain-to-plasma ratio \~1:1 but vitreous 0.09–0.12 in
+rabbits; opelconazole lung-retained, dose-dependent plasma C~max~
+\~0.3–1 ng/mL at low doses and ≤0.01 µM at clinical steady state)
+[@hoenigl2021pipeline].
+:::
 
 ::: keypoint
 **Clinical translation.** CNS candidiasis → amphotericin B +
@@ -1869,7 +1900,7 @@ echinocandin alone for any of the three.
 <br>
 
 | Syndrome | First-line | Key alternatives | Pharmacological reason |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Candidaemia, non-neutropenic** | Echinocandin | Fluconazole step-down when susceptible; **rezafungin** for weekly outpatient therapy | Fungicidal, safe, covers azole-resistant species |
 | **Candidaemia with eye or CNS involvement** | Liposomal amphotericin B ± flucytosine | Fluconazole or voriconazole if susceptible | Echinocandins do not reach these sites |
 | ***C. auris*** | Echinocandin | **Ibrexafungerp**, **fosmanogepix** (investigational) | 90% azole-resistant; 30–40% amphotericin B-resistant |
@@ -1886,7 +1917,7 @@ echinocandin alone for any of the three.
 <br>
 
 | Agent | Target | Rationale | Practical notes |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Flucytosine** | **Peak 30–80 mg/L**; avoid \>100 mg/L | Narrow therapeutic index; myelosuppression is exposure-related | Sample 2 h post-dose at steady state; repeat with any change in renal function [@pasqualotto2007flucytosinetdm] |
 | **Voriconazole** | **Trough 1–5.5 mg/L** | Non-linear kinetics, CYP2C19 polymorphism, concentration-dependent neurotoxicity and hepatotoxicity | Day 4–7 and after every dose change; TDM improves response and reduces discontinuation [@pascual2008voritdm; @park2012voritdm] |
 | **Itraconazole** | **Trough \>0.5–1 mg/L** | Erratic, formulation- and food-dependent absorption | Measure in every patient on treatment |
